@@ -20,11 +20,16 @@ export default {
           "0%": { opacity: 0, transform: "translateY(20%)" },
           "100%": { opacity: 1, transform: "translateY(0)" },
         },
+        fadeDown: {
+          "0%": { opacity: 0, transform: "translateY(-20%)" },
+          "100%": { opacity: 1, transform: "translateY(0)" },
+        },
       },
       animation: {
         fadeIn: "fadeIn 2s ease-in-out",
         slideIn: "slideIn .8s ease-in-out",
         fadeUp: "fadeUp 1s ease-in-out",
+        fadeDown: "fadeDown 1.5s ease-in-out",
       },
     },
   },
