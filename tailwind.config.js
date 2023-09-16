@@ -32,15 +32,15 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#352F44",
+          primary: "rgb(45,46,50)",
 
-          secondary: "#c4bcf4",
+          secondary: "rgb(45,46,50)",
 
-          accent: "#9cf4c5",
+          accent: "rgb(255,255,255)",
 
-          neutral: "#2a1f2e",
+          neutral: "rgb(45,46,50)",
 
-          "base-100": "#FAF0E6",
+          "base-100": " rgb(249,249,249)",
 
           info: "#8ca1f2",
 

@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-accent textFont">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -22,39 +22,39 @@ export default function Navbar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-primary rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-ghost rounded-box w-52"
             >
               <li>
-                <a className="text-success">Home</a>
+                <a className="text-primary font-semibold text-lg">Home</a>
               </li>
               <li>
-                <a>About</a>
+                <a className="text-primary font-semibold text-lg">About</a>
               </li>
               <li>
-                <a>Projects</a>
+                <a className="text-primary font-semibold text-lg">Projects</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a className="text-primary font-semibold text-lg">Contact</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">
-            &lt;&gt;LosmanDev&lt;/&gt;
+          <a className="btn btn-ghost normal-case text-xl text-primary font-semibold">
+            &lt;LosmanDev/&gt;
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <a className="text-primary font-semibold text-lg">Home</a>
             </li>
             <li>
-              <a>About</a>
+              <a className="text-primary font-semibold text-lg">About</a>
             </li>
             <li>
-              <a>Projects</a>
+              <a className="text-primary font-semibold text-lg">Projects</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a className="text-primary font-semibold text-lg">Contact</a>
             </li>
           </ul>
         </div>
