@@ -1,10 +1,10 @@
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-accent textFont">
+      <div className="navbar bg-accent textFont shadow-lg shadow-black-500/50">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-accent lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -22,7 +22,7 @@ export default function Navbar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-ghost rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-accent rounded-box w-52"
             >
               <li>
                 <a className="text-primary font-semibold text-lg">Home</a>

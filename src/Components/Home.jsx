@@ -1,7 +1,8 @@
+import { Icon } from "@iconify/react";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center animate-fadeDown pt-24 mx-5">
+      <div className="flex flex-col items-center justify-center animate-fadeDown pt-24 mx-5 pb-10">
         <h1 className="textFont text-4xl sm:text-5xl font-semibold text-center pb-5">
           <span className="text-5xl  sm:text-5xl wave mr-2">👋🏾</span>Hi,
           I&apos;m Liban Osman
@@ -12,133 +13,82 @@ export default function Home() {
           specializing in Web Application Development.
         </h1>
         <div className="flex flex-row items-center justify-center animate-fadeIn pt-5">
-          <img
-            className="mr-5"
-            width="30"
-            height="30"
-            src="https://img.icons8.com/ios-glyphs/30/linkedin.png"
-            alt="linkedin"
-          />
-          <img
-            className="mr-5"
-            width="30"
-            height="30"
-            src="https://img.icons8.com/glyph-neue/30/github.png"
-            alt="github"
-          />
-          <img
-            width="30"
-            height="30"
-            src="https://img.icons8.com/ios/30/resume.png"
-            alt="resume"
-          />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="25" height="25" icon="skill-icons:linkedin" />
+            <span className="text-primary font-medium text-xs">Linkedin</span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="25" height="25" icon="devicon:github" />
+            <span className="text-primary font-medium text-xs">GitHub</span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="25" height="25" icon="flat-color-icons:document" />
+            <span className="text-primary font-medium text-xs">Résumé</span>
+          </div>
         </div>
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
-          <h1 className="font-medium mr-3 pb-5 text-center">
+          <h1 className="font-semibold mr-3 pb-3 text-center">
             &lt;/&gt;Toolset
           </h1>
         </div>
         <div className="flex flex-wrap flex-row items-center justify-center">
-          <div className="pr-3 pt-2">
-            <img
-              className="w-30 h-30"
-              src="https://img.icons8.com/color/30/html-5--v1.png"
-              alt="html-5--v1"
-            />
-            <span className="text-primary font-medium text-xs">HTML</span>
-          </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/color/30/css3.png"
-              alt="css3"
-            />
-            <span className="text-primary font-medium text-xs">CSS</span>
-          </div>
-          <div className="pr-3 pt-2 ">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/color/30/tailwindcss.png"
-              alt="tailwindcss"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="vscode-icons:file-type-html" />
             <span className="text-primary text-center font-medium text-xs">
-              Tailwind
+              HTML
             </span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/color/30/javascript--v1.png"
-              alt="javascript--v1"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="vscode-icons:file-type-css" />
+            <span className="text-primary text-center font-medium text-xs">
+              CSS
+            </span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2 ">
+            <Icon width="30" height="30" icon="logos:tailwindcss-icon" />
+            <span className="text-primary text-center font-medium text-xs">
+              Tailwind CSS
+            </span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="skill-icons:javascript" />
             <span className="text-primary font-medium text-xs">JavaScript</span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/color/30/typescript.png"
-              alt="typescript"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="skill-icons:typescript" />
             <span className="text-primary font-medium text-xs">TypeScript</span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/30/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
-              alt="React"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="logos:react" />
             <span className="text-primary font-medium text-xs">React</span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/color/30/git.png"
-              alt="git"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="devicon:git" />
             <span className="text-primary font-medium text-xs">Git</span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/color/30/nodejs.png"
-              alt="nodejs"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="devicon:bash" />
+            <span className="text-primary font-medium text-xs">Bash</span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="logos:nodejs" />
             <span className="text-primary font-medium text-xs">Node.js</span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/color/30/nextjs.png"
-              alt="nextjs"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="logos:nextjs-icon" />
             <span className="text-primary font-medium text-xs">Next.js</span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/30/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png"
-              alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo"
-            />
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="devicon:mongodb-wordmark" />
             <span className="text-primary font-medium text-xs">MongoDB</span>
           </div>
-          <div className="pr-3 pt-2">
-            <img
-              className=""
-              width="30"
-              height="30"
-              src="https://img.icons8.com/fluency/30/bash.png"
-              alt="bash"
-            />
-            <span className="text-primary font-medium text-xs">Bash</span>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="logos:strapi-icon" />
+            <span className="text-primary font-medium text-xs">Strapi</span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="skill-icons:sqlite" />
+            <span className="text-primary font-medium text-xs">SQlite</span>
           </div>
         </div>
       </div>
