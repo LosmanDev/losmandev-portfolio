@@ -15,7 +15,9 @@ export default function About() {
     <>
       <div className="bg-accent animate-fadeDown pb-10 ">
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
-          <h1 className="font-semibold text-center">About Me</h1>
+          <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
+            About Me
+          </h1>
           <div className="flex flex-col sm:flex-row items-center justify-center">
             <Lottie
               animationData={animationData}
