@@ -15,15 +15,21 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center animate-fadeIn pt-5">
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="25" height="25" icon="skill-icons:linkedin" />
-            <span className="text-primary font-medium text-xs">Linkedin</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              Linkedin
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="25" height="25" icon="devicon:github" />
-            <span className="text-primary font-medium text-xs">GitHub</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              GitHub
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="25" height="25" icon="flat-color-icons:document" />
-            <span className="text-primary font-medium text-xs">Résumé</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              Résumé
+            </span>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
@@ -34,61 +40,81 @@ export default function Home() {
         <div className="flex flex-wrap flex-row items-center justify-center">
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="vscode-icons:file-type-html" />
-            <span className="text-primary text-center font-medium text-xs">
+            <span className="font-medium text-xs italic text-slate-600">
               HTML
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="vscode-icons:file-type-css" />
-            <span className="text-primary text-center font-medium text-xs">
+            <span className="font-medium text-xs italic text-slate-600">
               CSS
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2 ">
             <Icon width="30" height="30" icon="logos:tailwindcss-icon" />
-            <span className="text-primary text-center font-medium text-xs">
+            <span className="font-medium text-xs italic text-slate-600">
               Tailwind CSS
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="skill-icons:javascript" />
-            <span className="text-primary font-medium text-xs">JavaScript</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              JavaScript
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="skill-icons:typescript" />
-            <span className="text-primary font-medium text-xs">TypeScript</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              TypeScript
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:react" />
-            <span className="text-primary font-medium text-xs">React</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              React
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:git" />
-            <span className="text-primary font-medium text-xs">Git</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              Git
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:bash" />
-            <span className="text-primary font-medium text-xs">Bash</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              Bash
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:nodejs" />
-            <span className="text-primary font-medium text-xs">Node.js</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              Node.js
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:nextjs-icon" />
-            <span className="text-primary font-medium text-xs">Next.js</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              Next.js
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:mongodb-wordmark" />
-            <span className="text-primary font-medium text-xs">MongoDB</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              MongoDB
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:strapi-icon" />
-            <span className="text-primary font-medium text-xs">Strapi</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              Strapi
+            </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="skill-icons:sqlite" />
-            <span className="text-primary font-medium text-xs">SQlite</span>
+            <span className="font-medium text-xs italic text-slate-600">
+              SQlite
+            </span>
           </div>
         </div>
       </div>

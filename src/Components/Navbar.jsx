@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-accent textFont shadow-lg shadow-black-500/50">
-        <div className="navbar-start">
+      <div className="fixed top-0 w-full z-50 navbar bg-accent textFont shadow-lg shadow-black-500/50 animate-fadeDown">
+        <div className="navbar-start animate-fadeIn">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-accent lg:hidden">
               <svg
