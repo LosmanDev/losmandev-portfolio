@@ -22,9 +22,9 @@ export default function About() {
             <Lottie
               animationData={animationData}
               options={defaultOptions}
-              className="w-full sm:w-2/6 px-2"
+              className="w-full sm:w-1/3"
             />
-            <p className="text-slate-500 sm:mx-0 max-w-lg mx-auto text-center w-full sm:w-2/6 px-2">
+            <p className="text-slate-500 text-center sm:w-2/6 px-2">
               Beyond software development, my hobbies include playing sports,
               swimming, and enjoying life with my loved ones. My technical
               experience gives me the confidence to pick up new information

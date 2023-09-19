@@ -1,8 +1,10 @@
 import { Icon } from "@iconify/react";
+import reactLogo from "../assets/react.svg";
+
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center animate-fadeDown pt-24 mx-5 pb-10">
+      <div className="flex flex-col items-center justify-center animate-fadeDown pt-44 mx-5 pb-10">
         <h1 className="textFont text-4xl sm:text-5xl font-semibold text-center pb-5">
           <span className="text-5xl  sm:text-5xl wave mr-2">👋🏾</span>Hi,
           I&apos;m Liban Osman
@@ -69,7 +71,14 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="logos:react" />
+            <img
+              width="30"
+              height="30"
+              src={reactLogo}
+              className="logo react"
+              alt="React logo"
+            />
+
             <span className="font-medium text-xs italic text-slate-600">
               React
             </span>

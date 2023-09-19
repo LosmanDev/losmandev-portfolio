@@ -38,3 +38,25 @@
     transform: rotate(0deg);
   }
 }
+
+.logo {
+  animation: logo-spin infinite 15s linear;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 12em #2ac7f3fa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
