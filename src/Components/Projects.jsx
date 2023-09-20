@@ -34,13 +34,13 @@ export default function Projects() {
       setCurrentImageIndex((currentImageIndex + 1) % behind_images.length);
       setCurrentImageIndex((currentImageIndex + 1) % projectx.length);
       setCurrentImageIndex((currentImageIndex + 1) % waldo.length);
-    }, 6000);
+    }, 7000);
     return () => clearInterval(timer);
   }, [currentImageIndex]);
 
   return (
     <>
-      <div className="animate-fadeDown pb-10 ">
+      <div id="projects" className="animate-fadeIn pb-10">
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
           <h1 className="font-semibold text-center pb-8 sm:text-3xl text-2xl">
             Projects

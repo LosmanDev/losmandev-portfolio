@@ -1,8 +1,9 @@
 import { Icon } from "@iconify/react";
+
 export default function Contact() {
   return (
     <>
-      <div className="bg-accent animate-fadeDown pb-20">
+      <div id="contact" className="bg-accent animate-fadeIn pb-20">
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             Contact
@@ -27,7 +28,7 @@ export default function Contact() {
             placeholder="Message"
             className="textarea textarea-primary textarea-lg w-full max-w-xs"
           ></textarea>
-          <button className="btn btn-primary text-accent capitalize mt-2">
+          <button className="btn btn-primary btn-disabled text-accent capitalize mt-2">
             Let&apos;s Connect
           </button>
         </div>

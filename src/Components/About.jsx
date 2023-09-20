@@ -13,7 +13,7 @@ export default function About() {
 
   return (
     <>
-      <div className="bg-accent animate-fadeDown pb-10 ">
+      <div id="about" className="bg-accent animate-fadeDown pb-10 ">
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             About Me
