@@ -1,5 +1,4 @@
 import { Icon } from "@iconify/react";
-import reactLogo from "../assets/react.svg";
 
 export default function Home() {
   return (
@@ -71,16 +70,21 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
-            <img
+            <Icon
               width="30"
               height="30"
-              src={reactLogo}
               className="logo react"
               alt="React logo"
+              icon="logos:react"
             />
-
             <span className="font-medium text-xs italic text-slate-600">
               React
+            </span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="logos:nextjs-icon" />
+            <span className="font-medium text-xs italic text-slate-600">
+              Next.js
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
@@ -101,12 +105,7 @@ export default function Home() {
               Node.js
             </span>
           </div>
-          <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="logos:nextjs-icon" />
-            <span className="font-medium text-xs italic text-slate-600">
-              Next.js
-            </span>
-          </div>
+
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:mongodb-wordmark" />
             <span className="font-medium text-xs italic text-slate-600">

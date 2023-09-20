@@ -47,7 +47,7 @@ export default {
 
           "base-100": " rgb(249,249,249)",
 
-          info: "#8ca1f2",
+          info: "rgba(0, 0, 0, 0)",
 
           success: "#146c56",
 
