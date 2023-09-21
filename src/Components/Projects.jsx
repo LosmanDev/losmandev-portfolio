@@ -58,35 +58,48 @@ export default function Projects() {
             <div className="card-body">
               <h2 className="card-title">Behind The Cutz</h2>
               <p className="text-slate-600 font-light">
-                Behind The Cutz is a waitlist app developed for my local barber.
+                Behind The Cutz is a waitlist app under development for my local
+                barber.
               </p>
-              <div className="flex flex-row animate-fadeIn ">
+              <div className="flex flex-row animate-fadeIn pt-5 ">
                 <Icon
-                  width="20"
-                  height="20"
-                  className="logo react mr-1"
+                  width="25"
+                  height="25"
+                  className="logo react mr-2"
                   alt="React logo"
                   icon="logos:react"
                 />
                 <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
+                  className="mr-2"
+                  width="25"
+                  height="25"
                   icon="simple-icons:daisyui"
                 />
                 <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
+                  className="mr-2"
+                  width="25"
+                  height="25"
                   icon="mdi:responsive"
                 />
 
-                <Icon width="20" height="20" icon="logos:tailwindcss-icon" />
+                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
               </div>
 
               <div className="card-actions justify-center">
-                <button className="btn btn-outline">&lt;Code/&gt;</button>
-                <button className="btn btn-outline">Visit🌐 </button>
+                <a
+                  href="https://github.com/LosmanDev/BehindTheCutz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://behind-the-cutz.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
               </div>
             </div>
           </div>
@@ -109,38 +122,39 @@ export default function Projects() {
                 structured radiology reports as part of their assessment of
                 x-ray images for patients with COVID-19.
               </p>
-              <div className="flex flex-row animate-fadeIn ">
+              <div className="flex flex-row animate-fadeIn pt-5">
                 <Icon
-                  width="20"
-                  height="20"
-                  className="logo react mr-1"
+                  width="25"
+                  height="25"
+                  className="logo react mr-2"
                   alt="React logo"
                   icon="logos:react"
                 />
                 <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
+                  className="mr-2"
+                  width="25"
+                  height="25"
                   icon="logos:material-ui"
                 />
-                <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
-                  icon="mdi:responsive"
-                />
-                <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
-                  icon="logos:nodejs"
-                />
-                <Icon width="20" height="20" icon="devicon:mongodb-wordmark" />
+                <Icon width="25" height="25" icon="logos:nodejs" />
+                <Icon width="25" height="25" icon="devicon:mongodb-wordmark" />
               </div>
 
               <div className="card-actions justify-center">
-                <button className="btn btn-outline">&lt;Code/&gt;</button>
-                <button className="btn btn-outline">Visit🌐</button>
+                <a
+                  href="https://github.com/Quick07/Hack-Diversity-SWE-Group-6-Project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://techdive6.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐</button>
+                </a>
               </div>
             </div>
           </div>
@@ -161,31 +175,49 @@ export default function Projects() {
                 Waldo Housing Assistance Center Inc is a Nonprofit Housing
                 Organization based in Boston, MA.
               </p>
-              <div className="flex flex-row animate-fadeIn ">
+              <div className="flex flex-row animate-fadeIn pt-5 ">
                 <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
+                  className="mr-2"
+                  width="25"
+                  height="25"
                   icon="vscode-icons:file-type-html"
                 />
                 <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
+                  className="mr-2"
+                  width="25"
+                  height="25"
                   icon="vscode-icons:file-type-css"
                 />
                 <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="skill-icons:javascript"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
                   icon="mdi:responsive"
                 />
-                <Icon width="20" height="20" icon="logos:bootstrap" />
+                <Icon width="25" height="25" icon="logos:bootstrap" />
               </div>
 
               <div className="card-actions justify-center">
-                <button className="btn btn-outline">&lt;Code/&gt;</button>
-                <button className="btn btn-outline">Visit🌐</button>
+                <a
+                  href="https://github.com/LosmanDev/WaldoFoundation"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://waldohousingassistance.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐</button>
+                </a>
               </div>
             </div>
           </div>
@@ -204,26 +236,38 @@ export default function Projects() {
                 Track your favorite crypto prices utilizing the coin ranking
                 API.
               </p>
-              <div className="flex flex-row animate-fadeIn ">
+              <div className="flex flex-row animate-fadeIn pt-5">
                 <Icon
-                  width="20"
-                  height="20"
-                  className="logo react mr-1"
+                  width="25"
+                  height="25"
+                  className="logo react mr-2"
                   alt="React logo"
                   icon="logos:react"
                 />
                 <Icon
-                  className="mr-1"
-                  width="20"
-                  height="20"
+                  className="mr-2"
+                  width="25"
+                  height="25"
                   icon="mdi:responsive"
                 />
-                <Icon width="20" height="20" icon="logos:tailwindcss-icon" />
+                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
               </div>
 
               <div className="card-actions justify-center">
-                <button className="btn btn-outline">&lt;Code/&gt;</button>
-                <button className="btn btn-outline">Visit🌐 </button>
+                <a
+                  href="https://github.com/LosmanDev/crypto-suuq"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://crypto-suuq.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
               </div>
             </div>
           </div>
