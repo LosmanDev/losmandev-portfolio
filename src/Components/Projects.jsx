@@ -61,7 +61,7 @@ export default function Projects() {
                 Behind The Cutz is a waitlist app under development for my local
                 barber.
               </p>
-              <div className="flex flex-row animate-fadeIn pt-5 ">
+              <div className="flex flex-row animate-fadeIn py-5 ">
                 <Icon
                   width="25"
                   height="25"
@@ -122,7 +122,7 @@ export default function Projects() {
                 structured radiology reports as part of their assessment of
                 x-ray images for patients with COVID-19.
               </p>
-              <div className="flex flex-row animate-fadeIn pt-5">
+              <div className="flex flex-row animate-fadeIn py-5">
                 <Icon
                   width="25"
                   height="25"
@@ -136,8 +136,8 @@ export default function Projects() {
                   height="25"
                   icon="logos:material-ui"
                 />
-                <Icon width="25" height="25" icon="logos:nodejs" />
-                <Icon width="25" height="25" icon="devicon:mongodb-wordmark" />
+                <Icon width="25" height="25" icon="logos:nodejs-icon-alt" />
+                <Icon width="25" height="25" icon="devicon:mongodb" />
               </div>
 
               <div className="card-actions justify-center">
@@ -175,7 +175,7 @@ export default function Projects() {
                 Waldo Housing Assistance Center Inc is a Nonprofit Housing
                 Organization based in Boston, MA.
               </p>
-              <div className="flex flex-row animate-fadeIn pt-5 ">
+              <div className="flex flex-row animate-fadeIn py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -236,7 +236,7 @@ export default function Projects() {
                 Track your favorite crypto prices utilizing the coin ranking
                 API.
               </p>
-              <div className="flex flex-row animate-fadeIn pt-5">
+              <div className="flex flex-row animate-fadeIn py-5">
                 <Icon
                   width="25"
                   height="25"

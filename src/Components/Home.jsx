@@ -115,14 +115,14 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="logos:nodejs" />
+            <Icon width="30" height="30" icon="logos:nodejs-icon-alt" />
             <span className="font-medium text-xs italic text-slate-600">
               Node.js
             </span>
           </div>
 
           <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="devicon:mongodb-wordmark" />
+            <Icon width="30" height="30" icon="devicon:mongodb" />
             <span className="font-medium text-xs italic text-slate-600">
               MongoDB
             </span>

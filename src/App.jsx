@@ -14,14 +14,14 @@ export default function App() {
       <Navbar />
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
-          <div className={isVisible ? "animate-fadeIn" : ""}>
+          <div className={isVisible ? "animate-fadeDown" : ""}>
             <Home />
           </div>
         )}
       </VisibilitySensor>
       <VisibilitySensor partialVisibility>
         {({ isVisible }) => (
-          <div className={isVisible ? "animate-fadeIn" : ""}>
+          <div className={isVisible ? "animate-fadeDown" : ""}>
             <About />
           </div>
         )}
