@@ -46,69 +46,11 @@ export default function Projects() {
             Projects
           </h1>
 
-          <div className="card sm:w-5/12 w-96 glass shadow-xl">
-            <figure>
-              <img
-                key={behind_images[currentImageIndex].src}
-                className="animate-fadeIn"
-                src={behind_images[currentImageIndex].src}
-                alt={behind_images[currentImageIndex].src}
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Behind The Cutz</h2>
-              <p className="text-slate-600 font-light">
-                Behind The Cutz is a waitlist app under development for my local
-                barber.
-              </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
-                <Icon
-                  width="25"
-                  height="25"
-                  className="logo react mr-2"
-                  alt="React logo"
-                  icon="logos:react"
-                />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="simple-icons:daisyui"
-                />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="mdi:responsive"
-                />
-
-                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
-              </div>
-
-              <div className="card-actions justify-center">
-                <a
-                  href="https://github.com/LosmanDev/BehindTheCutz"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">&lt;Code/&gt;</button>
-                </a>
-                <a
-                  href="https://behind-the-cutz.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">Visit🌐 </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
           <div className="card sm:w-5/12 w-96 glass mt-5 shadow-xl">
             <figure>
               <img
                 key={projectx[currentImageIndex].src}
-                className="animate-fadeIn"
+                className="animate-slideIn"
                 src={projectx[currentImageIndex].src}
                 alt={projectx[currentImageIndex].src}
               />
@@ -162,7 +104,7 @@ export default function Projects() {
             <figure>
               <img
                 key={waldo[currentImageIndex].src}
-                className="animate-fadeIn"
+                className="animate-slideIn"
                 src={waldo[currentImageIndex].src}
                 alt={waldo[currentImageIndex].src}
               />
@@ -221,11 +163,68 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <div className="card sm:w-5/12 w-96 glass shadow-xl">
+            <figure>
+              <img
+                key={behind_images[currentImageIndex].src}
+                className="animate-slideIn"
+                src={behind_images[currentImageIndex].src}
+                alt={behind_images[currentImageIndex].src}
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Behind The Cutz</h2>
+              <p className="text-slate-600 font-light">
+                Behind The Cutz is a waitlist app under development for my local
+                barber.
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  width="25"
+                  height="25"
+                  className="logo react mr-2"
+                  alt="React logo"
+                  icon="logos:react"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="simple-icons:daisyui"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="mdi:responsive"
+                />
+
+                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/BehindTheCutz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://behind-the-cutz.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="card sm:w-5/12 w-96 glass shadow-xl mt-5">
             <figure>
               <img
                 key={crypto[currentImageIndex].src}
-                className="animate-fadeIn"
+                className="animate-slideIn"
                 src={crypto[currentImageIndex].src}
                 alt={crypto[currentImageIndex].src}
               />

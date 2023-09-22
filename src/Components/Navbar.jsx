@@ -76,10 +76,10 @@ export default function Navbar() {
             </ul>
           </div>
           <a
-            href="https://losmandev.netlify.app/"
+            href="https://losman.dev/"
             className="btn btn-ghost normal-case text-xl text-primary font-semibold"
           >
-            &lt;LosmanDev/&gt;
+            &lt;LosmanDev /&gt;
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
