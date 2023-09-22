@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div
         id="home"
-        className="flex flex-col items-center justify-center animate-fadeDown pt-44 mx-5 pb-10"
+        className="flex flex-col items-center justify-center animate-fadeDown pt-32 sm:pt-44 mx-5 pb-10"
       >
         <h1 className="textFont text-4xl sm:text-5xl font-semibold text-center pb-5">
           <span className="text-5xl  sm:text-5xl wave mr-2">👋🏾</span>Hi,
