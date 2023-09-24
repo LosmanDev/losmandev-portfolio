@@ -46,11 +46,11 @@ export default function Projects() {
             Projects
           </h1>
 
-          <div className="card sm:w-5/12 w-96 glass mt-5 shadow-xl">
+          <div className="card sm:w-5/12 w-96 bg-base-100 mt-8 shadow-xl shadow-primary">
             <figure>
               <img
                 key={projectx[currentImageIndex].src}
-                className="animate-slideIn"
+                className="animate-slideIn rounded"
                 src={projectx[currentImageIndex].src}
                 alt={projectx[currentImageIndex].src}
               />
@@ -100,11 +100,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 glass mt-5 shadow-xl">
+          <div className="card sm:w-5/12 w-96 glass mt-8 shadow-xl shadow-primary">
             <figure>
               <img
                 key={waldo[currentImageIndex].src}
-                className="animate-slideIn"
+                className="animate-slideIn rounded"
                 src={waldo[currentImageIndex].src}
                 alt={waldo[currentImageIndex].src}
               />
@@ -163,11 +163,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 glass shadow-xl">
+          <div className="card sm:w-5/12 w-96 mt-8 glass shadow-xl shadow-primary">
             <figure>
               <img
                 key={behind_images[currentImageIndex].src}
-                className="animate-slideIn"
+                className="animate-slideIn rounded"
                 src={behind_images[currentImageIndex].src}
                 alt={behind_images[currentImageIndex].src}
               />
@@ -220,11 +220,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 glass shadow-xl mt-5">
+          <div className="card sm:w-5/12 w-96 glass shadow-xl shadow-primary mt-8">
             <figure>
               <img
                 key={crypto[currentImageIndex].src}
-                className="animate-slideIn"
+                className="animate-slideIn rounded"
                 src={crypto[currentImageIndex].src}
                 alt={crypto[currentImageIndex].src}
               />
