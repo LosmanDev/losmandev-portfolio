@@ -1,5 +1,4 @@
 import "./App.css";
-import VisibilitySensor from "react-visibility-sensor";
 
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
@@ -12,35 +11,11 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <VisibilitySensor partialVisibility>
-        {({ isVisible }) => (
-          <div className={isVisible ? "animate-fadeDown" : ""}>
-            <Home />
-          </div>
-        )}
-      </VisibilitySensor>
-      <VisibilitySensor partialVisibility>
-        {({ isVisible }) => (
-          <div className={isVisible ? "animate-fadeDown" : ""}>
-            <About />
-          </div>
-        )}
-      </VisibilitySensor>
-      <VisibilitySensor partialVisibility>
-        {({ isVisible }) => (
-          <div className={isVisible ? "animate-fadeIn" : ""}>
-            <Projects />
-          </div>
-        )}
-      </VisibilitySensor>
-      <VisibilitySensor partialVisibility>
-        {({ isVisible }) => (
-          <div className={isVisible ? "animate-fadeIn" : ""}>
-            <Contact />
-            <Footer />
-          </div>
-        )}
-      </VisibilitySensor>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

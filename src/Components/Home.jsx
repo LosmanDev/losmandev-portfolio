@@ -5,27 +5,26 @@ export default function Home() {
     <>
       <div
         id="home"
-        className="flex flex-col items-center justify-center animate-fadeDown pt-32 sm:pt-44 mx-5 pb-10"
+        className="flex flex-col items-center justify-center animate-fadeDown pt-32 sm:pt-44 mx-5 pb-44"
       >
-        <h1 className="textFont text-4xl sm:text-5xl font-semibold text-center pb-5">
-          <span className="text-5xl  sm:text-5xl wave mr-2">👋🏾</span>Hi,
+        <h1 className="textFont text-4xl sm:text-7xl font-semibold text-center pb-8">
+          <span className="text-5xl  sm:text-7xl wave mr-2">👋🏾</span>Hi,
           I&apos;m Liban Osman
         </h1>
 
-        <h1 className="textFont text-center">
-          Full Stack Software Engineer <br />
-          specializing in Web Application Development.
+        <h1 className="textFont text-center sm:text-2xl font-medium">
+          Software Engineer specializing in Web Application Development.
         </h1>
-        <div className="flex flex-row items-center justify-center animate-fadeIn pt-5">
+        <div className="flex flex-row items-center justify-center animate-fadeIn pt-16">
           <div className="flex flex-col items-center pr-3 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://www.linkedin.com/in/liban-osman-losmandev/"
               target="_blank"
               rel="noreferrer"
             >
-              <Icon width="35" height="35" icon="skill-icons:linkedin" />
+              <Icon width="50" height="50" icon="skill-icons:linkedin" />
             </a>
-            <span className="font-medium text-xs text-slate-600">Linkedin</span>
+            <span className="font-medium text-sm text-slate-600">Linkedin</span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
@@ -33,9 +32,9 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <Icon width="35" height="35" icon="devicon:github" />
+              <Icon width="50" height="50" icon="devicon:github" />
             </a>
-            <span className="font-medium text-xs text-slate-600">GitHub</span>
+            <span className="font-medium text-sm text-slate-600">GitHub</span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
@@ -43,17 +42,18 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <Icon width="35" height="35" icon="flat-color-icons:document" />
+              <Icon width="50" height="50" icon="flat-color-icons:document" />
             </a>
-            <span className="font-medium text-xs text-slate-600">Résumé</span>
+            <span className="font-medium text-sm text-slate-600">Résumé</span>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
-          <h1 className="font-semibold mr-3 pb-3 text-center">
-            &lt;/&gt;Toolset
+
+        <div className="flex flex-col items-center justify-center animate-fadeIn sm:pt-28 pt-16 textFont">
+          <h1 className="font-semibold text-2xl sm:text-3xl mr-3 pb-3 text-center">
+            &lt;Toolset /&gt;
           </h1>
         </div>
-        <div className="flex flex-wrap flex-row items-center justify-center">
+        <div className="flex flex-wrap flex-row items-center justify-center px-5 py-5">
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="vscode-icons:file-type-html" />
             <span className="font-medium text-xs italic text-slate-600">
@@ -115,7 +115,7 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="logos:nodejs-icon-alt" />
+            <Icon width="30" height="30" icon="devicon:nodejs" />
             <span className="font-medium text-xs italic text-slate-600">
               Node.js
             </span>

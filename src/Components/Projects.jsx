@@ -40,7 +40,7 @@ export default function Projects() {
 
   return (
     <>
-      <div id="projects" className="animate-fadeIn pb-10">
+      <div id="projects" className="animate-fadeIn pb-44">
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
           <h1 className="font-semibold text-center pb-8 sm:text-3xl text-2xl">
             Projects
@@ -78,7 +78,7 @@ export default function Projects() {
                   height="25"
                   icon="logos:material-ui"
                 />
-                <Icon width="25" height="25" icon="logos:nodejs-icon-alt" />
+                <Icon width="25" height="25" icon="devicon:nodejs" />
                 <Icon width="25" height="25" icon="devicon:mongodb" />
               </div>
 
@@ -134,15 +134,15 @@ export default function Projects() {
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="skill-icons:javascript"
+                  icon="logos:bootstrap"
                 />
                 <Icon
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="mdi:responsive"
+                  icon="skill-icons:javascript"
                 />
-                <Icon width="25" height="25" icon="logos:bootstrap" />
+                <Icon width="25" height="25" icon="mdi:responsive" />
               </div>
 
               <div className="card-actions justify-center">
