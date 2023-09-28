@@ -40,7 +40,7 @@ export default function Projects() {
 
   return (
     <>
-      <div id="projects" className="animate-fadeIn pb-44">
+      <div id="projects" className="animate-fadeIn pb-20">
         <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
           <h1 className="font-semibold text-center pb-8 sm:text-3xl text-2xl">
             Projects

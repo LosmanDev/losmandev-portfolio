@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div
         id="home"
-        className="flex flex-col items-center justify-center animate-fadeDown pt-32 sm:pt-44 mx-5 pb-44"
+        className="flex flex-col items-center justify-center animate-fadeDown pt-32 sm:pt-64 mx-5 pb-28"
       >
         <h1 className="textFont text-4xl sm:text-7xl font-semibold text-center pb-8">
           <span className="text-5xl  sm:text-7xl wave mr-2">👋🏾</span>Hi,
@@ -15,40 +15,40 @@ export default function Home() {
         <h1 className="textFont text-center sm:text-2xl font-medium">
           Software Engineer specializing in Web Application Development.
         </h1>
-        <div className="flex flex-row items-center justify-center animate-fadeIn pt-16">
-          <div className="flex flex-col items-center pr-3 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
+        <div className="flex flex-row items-center justify-center animate-fadeIn pt-10">
+          <div className="flex flex-col items-center pr-8 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://www.linkedin.com/in/liban-osman-losmandev/"
               target="_blank"
               rel="noreferrer"
             >
-              <Icon width="50" height="50" icon="skill-icons:linkedin" />
+              <Icon width="40" height="40" icon="skill-icons:linkedin" />
             </a>
             <span className="font-medium text-sm text-slate-600">Linkedin</span>
           </div>
-          <div className="flex flex-col items-center pr-3 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
+          <div className="flex flex-col items-center pr-8 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://github.com/LosmanDev"
               target="_blank"
               rel="noreferrer"
             >
-              <Icon width="50" height="50" icon="devicon:github" />
+              <Icon width="40" height="40" icon="devicon:github" />
             </a>
             <span className="font-medium text-sm text-slate-600">GitHub</span>
           </div>
-          <div className="flex flex-col items-center pr-3 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
+          <div className="flex flex-col items-center pr-8 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://drive.google.com/file/d/1fY9heohNnm1e8ddBIPOdLmcZKfyI9-Jm/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              <Icon width="50" height="50" icon="flat-color-icons:document" />
+              <Icon width="40" height="40" icon="flat-color-icons:document" />
             </a>
             <span className="font-medium text-sm text-slate-600">Résumé</span>
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center animate-fadeIn sm:pt-28 pt-16 textFont">
+        <div className="flex flex-col items-center justify-center animate-fadeIn sm:pt-36 pt-20 textFont">
           <h1 className="font-semibold text-2xl sm:text-3xl mr-3 pb-3 text-center">
             &lt;Toolset /&gt;
           </h1>
