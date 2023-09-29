@@ -6,7 +6,9 @@ export default function Footer() {
         <aside></aside>
         <nav>
           <div className="grid grid-flow-col gap-4 items-center">
-            <p>© LosmanDev {new Date().getFullYear()} </p>
+            <p className="text-primary font-semibold text-lg">
+              LosmanDev © {new Date().getFullYear()}
+            </p>
             <a
               href="https://www.linkedin.com/in/liban-osman-losmandev/"
               target="_blank"

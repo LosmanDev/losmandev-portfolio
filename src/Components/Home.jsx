@@ -16,7 +16,7 @@ export default function Home() {
           Software Engineer specializing in Web Application Development.
         </h1>
         <div className="flex flex-row items-center justify-center animate-fadeIn pt-10">
-          <div className="flex flex-col items-center pr-8 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
+          <div className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://www.linkedin.com/in/liban-osman-losmandev/"
               target="_blank"
@@ -26,7 +26,7 @@ export default function Home() {
             </a>
             <span className="font-medium text-sm text-slate-600">Linkedin</span>
           </div>
-          <div className="flex flex-col items-center pr-8 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
+          <div className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://github.com/LosmanDev"
               target="_blank"
@@ -36,7 +36,7 @@ export default function Home() {
             </a>
             <span className="font-medium text-sm text-slate-600">GitHub</span>
           </div>
-          <div className="flex flex-col items-center pr-8 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
+          <div className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://drive.google.com/file/d/1fY9heohNnm1e8ddBIPOdLmcZKfyI9-Jm/view?usp=sharing"
               target="_blank"

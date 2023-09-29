@@ -13,8 +13,8 @@ export default function About() {
 
   return (
     <>
-      <div id="about" className="bg-accent animate-fadeDown pb-10 ">
-        <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
+      <div id="about" className="bg-accent animate-fadeDown pb-28 pt-32">
+        <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             About Me
           </h1>
@@ -24,7 +24,7 @@ export default function About() {
               options={defaultOptions}
               className="w-full sm:w-1/3"
             />
-            <p className="text-slate-500 text-center sm:w-2/6 px-2">
+            <p className="text-slate-500 text-center sm:text-xl sm:w-2/6 px-2">
               Beyond software development, my hobbies include playing sports,
               swimming, and enjoying life with my loved ones. My technical
               experience gives me the confidence to pick up new information

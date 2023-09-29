@@ -40,13 +40,13 @@ export default function Projects() {
 
   return (
     <>
-      <div id="projects" className="animate-fadeIn pb-20">
-        <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
+      <div id="projects" className="animate-fadeIn pb-28 pt-32">
+        <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
           <h1 className="font-semibold text-center pb-8 sm:text-3xl text-2xl">
             Projects
           </h1>
 
-          <div className="card sm:w-5/12 w-96 bg-base-100 mt-8 shadow-xl shadow-primary">
+          <div className="card sm:w-5/12 w-96 bg-base-100 mt-16 shadow-xl shadow-primary">
             <figure>
               <img
                 key={projectx[currentImageIndex].src}
@@ -100,7 +100,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 glass mt-8 shadow-xl shadow-primary">
+          <div className="card sm:w-5/12 w-96 glass mt-16 shadow-xl shadow-primary">
             <figure>
               <img
                 key={waldo[currentImageIndex].src}
@@ -163,7 +163,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 mt-8 glass shadow-xl shadow-primary">
+          <div className="card sm:w-5/12 w-96 mt-16 glass shadow-xl shadow-primary">
             <figure>
               <img
                 key={behind_images[currentImageIndex].src}
@@ -220,7 +220,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 glass shadow-xl shadow-primary mt-8">
+          <div className="card sm:w-5/12 w-96 glass shadow-xl shadow-primary mt-16">
             <figure>
               <img
                 key={crypto[currentImageIndex].src}

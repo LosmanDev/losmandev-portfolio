@@ -3,8 +3,8 @@ import { Icon } from "@iconify/react";
 export default function Contact() {
   return (
     <>
-      <div id="contact" className="bg-accent animate-fadeIn pb-20">
-        <div className="flex flex-col items-center justify-center animate-fadeIn pt-10 textFont">
+      <div id="contact" className="bg-accent animate-fadeIn pb-28 pt-32">
+        <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             Contact
           </h1>
@@ -22,13 +22,13 @@ export default function Contact() {
           <input
             type="text"
             placeholder="Email"
-            className="input input-primary w-full max-w-xs mb-2"
+            className="input input-primary w-full sm:max-w-md max-w-xs mb-2"
           />
           <textarea
             placeholder="Message"
-            className="textarea textarea-primary textarea-lg w-full max-w-xs"
+            className="textarea textarea-primary textarea-lg w-full sm:max-w-md max-w-xs"
           ></textarea>
-          <button className="btn btn-primary btn-disabled text-accent capitalize mt-2">
+          <button className="btn btn-primary btn-disabled text-accent capitalize mt-4 w-full sm:max-w-md max-w-xs ">
             Let&apos;s Connect
           </button>
         </div>
