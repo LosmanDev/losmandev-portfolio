@@ -45,8 +45,7 @@ export default function Projects() {
           <h1 className="font-semibold text-center pb-8 sm:text-3xl text-2xl">
             Projects
           </h1>
-
-          <div className="card sm:w-5/12 w-96 bg-base-100 mt-16 shadow-xl shadow-primary">
+          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
             <figure>
               <img
                 key={projectx[currentImageIndex].src}
@@ -100,7 +99,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 glass mt-16 shadow-xl shadow-primary">
+          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
             <figure>
               <img
                 key={waldo[currentImageIndex].src}
@@ -163,7 +162,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 mt-16 glass shadow-xl shadow-primary">
+          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
             <figure>
               <img
                 key={behind_images[currentImageIndex].src}
@@ -220,7 +219,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-5/12 w-96 glass shadow-xl shadow-primary mt-16">
+          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral ">
             <figure>
               <img
                 key={crypto[currentImageIndex].src}

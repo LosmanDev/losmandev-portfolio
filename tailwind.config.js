@@ -48,7 +48,7 @@ export default {
 
           accent: "rgb(255,255,255)",
 
-          neutral: "rgb(45,46,50)",
+          neutral: "rgb(0,0,0)",
 
           "base-100": " rgb(249,249,249)",
 
