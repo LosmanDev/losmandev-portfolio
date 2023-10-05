@@ -1,6 +1,12 @@
 import { Icon } from "@iconify/react";
+import { useForm } from "react-hook-form";
 
 export default function Contact() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
   return (
     <>
       <div id="contact" className="bg-accent animate-fadeIn pb-28 pt-32">
@@ -18,15 +24,31 @@ export default function Contact() {
               </h1>
             </a>
           </div>
+          <form
+            onSubmit={handleSubmit((data) => {
+              console.log(data);
+            })}
+          >
+            <textarea
+              {...register("Message", {
+                required: "Error",
+                pattern: /^(\b\w+\b\s*){5,}$/,
+              })}
+              placeholder="Message"
+              className={
+                errors.Message?.message
+                  ? "textarea textarea-error textarea-lg w-full sm:max-w-md max-w-xs"
+                  : "textarea textarea-primary textarea-lg w-full sm:max-w-md max-w-xs"
+              }
+            ></textarea>
 
-          <textarea
-            placeholder="Message"
-            className="textarea textarea-primary textarea-lg w-full sm:max-w-md max-w-xs"
-            disabled
-          ></textarea>
-          <button className="btn btn-primary btn-disabled text-accent capitalize mt-4 w-full sm:max-w-md max-w-xs ">
-            Let&apos;s Connect
-          </button>
+            <button
+              type="submit"
+              className="btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-md max-w-xs "
+            >
+              Let&apos;s Connect
+            </button>
+          </form>
         </div>
       </div>
     </>

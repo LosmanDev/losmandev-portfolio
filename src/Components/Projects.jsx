@@ -30,6 +30,20 @@ export default function Projects() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
+    // Preload images
+    [
+      behind,
+      behind_service,
+      project_x,
+      project_exam,
+      waldo_house,
+      waldo_about,
+      crypto_suuq,
+      crypto_body,
+    ].forEach((src) => {
+      new Image().src = src;
+    });
+
     const timer = setInterval(() => {
       setCurrentImageIndex((currentImageIndex + 1) % behind_images.length);
       setCurrentImageIndex((currentImageIndex + 1) % projectx.length);
