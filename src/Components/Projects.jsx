@@ -1,57 +1,10 @@
-import { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
 import behind from "../assets/images/behind.webp";
-import behind_service from "../assets/images/behind-service.webp";
 import project_x from "../assets/images/projectx.webp";
-import project_exam from "../assets/images/project-exam.webp";
 import waldo_house from "../assets/images/waldo.webp";
-import waldo_about from "../assets/images/waldo-about.webp";
 import crypto_suuq from "../assets/images/crypto-suuq.webp";
-import crypto_body from "../assets/images/crypto.webp";
-
-const behind_images = [
-  { src: behind, alt: "Behind The Cutz" },
-  { src: behind_service, alt: "Behind The Cutz" },
-];
-const projectx = [
-  { src: project_x, alt: "Project X" },
-  { src: project_exam, alt: "Project X" },
-];
-const waldo = [
-  { src: waldo_house, alt: "Waldo Housing Asssistance Center Inc" },
-  { src: waldo_about, alt: "Waldo Housing Asssistance Center Inc" },
-];
-const crypto = [
-  { src: crypto_suuq, alt: "Crypto Suuq" },
-  { src: crypto_body, alt: "Crypto Suuq" },
-];
 
 export default function Projects() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    // Preload images
-    [
-      behind,
-      behind_service,
-      project_x,
-      project_exam,
-      waldo_house,
-      waldo_about,
-      crypto_suuq,
-      crypto_body,
-    ].forEach((src) => {
-      new Image().src = src;
-    });
-
-    const timer = setInterval(() => {
-      setCurrentImageIndex((currentImageIndex + 1) % behind_images.length);
-      setCurrentImageIndex((currentImageIndex + 1) % projectx.length);
-      setCurrentImageIndex((currentImageIndex + 1) % waldo.length);
-    }, 7000);
-    return () => clearInterval(timer);
-  }, [currentImageIndex]);
-
   return (
     <>
       <div id="projects" className="animate-fadeIn pb-28 pt-32">
@@ -62,10 +15,9 @@ export default function Projects() {
           <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
             <figure>
               <img
-                key={projectx[currentImageIndex].src}
                 className="animate-slideIn rounded"
-                src={projectx[currentImageIndex].src}
-                alt={projectx[currentImageIndex].src}
+                src={project_x}
+                alt="Project X"
               />
             </figure>
             <div className="card-body">
@@ -116,10 +68,9 @@ export default function Projects() {
           <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
             <figure>
               <img
-                key={waldo[currentImageIndex].src}
                 className="animate-slideIn rounded"
-                src={waldo[currentImageIndex].src}
-                alt={waldo[currentImageIndex].src}
+                src={waldo_house}
+                alt="Waldo Housing Assistance Center Inc"
               />
             </figure>
             <div className="card-body">
@@ -179,10 +130,9 @@ export default function Projects() {
           <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
             <figure>
               <img
-                key={behind_images[currentImageIndex].src}
                 className="animate-slideIn rounded"
-                src={behind_images[currentImageIndex].src}
-                alt={behind_images[currentImageIndex].src}
+                src={behind}
+                alt="Behind The Cutz"
               />
             </figure>
             <div className="card-body">
@@ -236,10 +186,9 @@ export default function Projects() {
           <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral ">
             <figure>
               <img
-                key={crypto[currentImageIndex].src}
                 className="animate-slideIn rounded"
-                src={crypto[currentImageIndex].src}
-                alt={crypto[currentImageIndex].src}
+                src={crypto_suuq}
+                alt="Crypto Suuq"
               />
             </figure>
             <div className="card-body">

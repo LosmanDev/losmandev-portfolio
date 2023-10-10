@@ -7,6 +7,11 @@ export default function Contact() {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <>
       <div id="contact" className="bg-accent animate-fadeIn pb-28 pt-32">
@@ -24,30 +29,35 @@ export default function Contact() {
               </h1>
             </a>
           </div>
-          <form
-            onSubmit={handleSubmit((data) => {
-              console.log(data);
-            })}
-          >
-            <textarea
-              {...register("Message", {
-                required: "Error",
-                pattern: /^(\b\w+\b\s*){5,}$/,
-              })}
-              placeholder="Message"
-              className={
-                errors.Message?.message
-                  ? "textarea textarea-error textarea-lg w-full sm:max-w-md max-w-xs"
-                  : "textarea textarea-primary textarea-lg w-full sm:max-w-md max-w-xs"
-              }
-            ></textarea>
 
-            <button
-              type="submit"
-              className="btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-md max-w-xs "
-            >
-              Let&apos;s Connect
-            </button>
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <div className="flex flex-col items-center justify-center animate-fadeIn textFont  ">
+              <textarea
+                {...register("Message", {
+                  required: "Error: message too short",
+                  pattern: {
+                    value: /^(\b\w+\b\s*){4,}$/,
+                    message: "Error: message too short",
+                  },
+                })}
+                placeholder="Message"
+                className={
+                  errors.Message?.message
+                    ? "textarea textarea-error textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
+                    : "textarea textarea-primary textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
+                }
+              />
+
+              <button
+                type="submit"
+                className="btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10"
+              >
+                Let&apos;s Connect
+              </button>
+              <p className="text-error text-center pt-3">
+                {errors.Message?.message}
+              </p>
+            </div>
           </form>
         </div>
       </div>
