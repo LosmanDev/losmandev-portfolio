@@ -1,17 +1,30 @@
 import { Icon } from "@iconify/react";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
   const onSubmit = (data) => {
+    emailjs
+      .send("service_dbwpp2s", "template_ok5qdxf", data, "Pu9T4ZADTt9dCVd-2")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    reset();
     console.log(data);
-    window.location.reload();
-    window.scrollTo(0, 0);
+    // window.location.reload();
+    // window.scrollTo(0, 0);
   };
 
   return (
@@ -32,12 +45,7 @@ export default function Contact() {
             </a>
           </div>
 
-          <form
-            name="contact"
-            method="POST"
-            onSubmit={handleSubmit(onSubmit)}
-            data-netlify="true"
-          >
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="flex flex-col items-center justify-center animate-fadeIn textFont  ">
               <textarea
                 name="message"
