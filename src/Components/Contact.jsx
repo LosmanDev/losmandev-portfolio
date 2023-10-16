@@ -10,6 +10,8 @@ export default function Contact() {
 
   const onSubmit = (data) => {
     console.log(data);
+    window.location.reload();
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -30,9 +32,15 @@ export default function Contact() {
             </a>
           </div>
 
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            onSubmit={handleSubmit(onSubmit)}
+          >
             <div className="flex flex-col items-center justify-center animate-fadeIn textFont  ">
               <textarea
+                name="message"
                 {...register("Message", {
                   required: "Error: message too short",
                   pattern: {
