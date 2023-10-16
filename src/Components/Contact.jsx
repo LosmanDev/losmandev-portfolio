@@ -35,17 +35,18 @@ export default function Contact() {
           <form
             name="contact"
             method="POST"
-            data-netlify="true"
             onSubmit={handleSubmit(onSubmit)}
+            data-netlify="true"
           >
             <div className="flex flex-col items-center justify-center animate-fadeIn textFont  ">
               <textarea
                 name="message"
+                id="message"
                 {...register("Message", {
-                  required: "Error: message too short",
+                  required: "Message too short",
                   pattern: {
                     value: /^(\b\w+\b\s*){4,}$/,
-                    message: "Error: message too short",
+                    message: "Message too short",
                   },
                 })}
                 placeholder="Message"
