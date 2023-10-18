@@ -1,8 +1,24 @@
+import { useState } from 'react';
 import { Icon } from "@iconify/react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import Lottie from "lottie-react";
+import animationData from "../assets/email_animation.json"
+
 
 export default function Contact() {
+const [submitted, setSubmitted] = useState(false);
+
+  const defaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },}
+
+
+
   const {
     register,
     handleSubmit,
@@ -23,8 +39,12 @@ export default function Contact() {
       );
     reset();
     console.log(data);
-    // window.location.reload();
-    // window.scrollTo(0, 0);
+    setSubmitted(true)
+    setTimeout(() => {
+      window.location.reload();
+      window.scrollTo(0, 0);
+    }, 2100);
+    
   };
 
   return (
@@ -44,38 +64,51 @@ export default function Contact() {
               </h1>
             </a>
           </div>
-
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="flex flex-col items-center justify-center animate-fadeIn textFont  ">
-              <textarea
-                name="message"
-                id="message"
-                {...register("Message", {
-                  required: "Message too short",
-                  pattern: {
-                    value: /^(\b\w+\b\s*){4,}$/,
-                    message: "Message too short",
-                  },
-                })}
-                placeholder="Message"
-                className={
-                  errors.Message?.message
-                    ? "textarea textarea-error textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
-                    : "textarea textarea-primary textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
-                }
+          {submitted ? (
+            <div className="flex flex-col sm:flex-row items-center justify-center animate-fadeIn">
+              <Lottie
+                animationData={animationData}
+                options={defaultOptions}
+                className="w-full sm:w-96"
               />
-
-              <button
-                type="submit"
-                className="btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10"
-              >
-                Let&apos;s Connect
-              </button>
-              <p className="text-error text-center pt-3">
-                {errors.Message?.message}
-              </p>
             </div>
-          </form>
+          ) : (
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className="flex flex-col items-center justify-center animate-fadeIn textFont  ">
+                <textarea
+                  name="message"
+                  id="message"
+                  {...register("Message", {
+                    required: "Message too short",
+                    pattern: {
+                      value: /^(\S+\s+){3}\S+.*$/,
+                      message: "Message too short",
+                    },
+                  })}
+                  placeholder="Message"
+                  className={
+                    errors.Message?.message
+                      ? "textarea textarea-error textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
+                      : "textarea textarea-primary textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
+                  }
+                />
+
+                <button
+                  type="submit"
+                  className={
+                    errors.Message?.message
+                      ? "btn btn-disabled text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10"
+                      : "btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10"
+                  }
+                >
+                  Let&apos;s Connect
+                </button>
+                <p className="text-error text-center pt-3">
+                  {errors.Message?.message}
+                </p>
+              </div>
+            </form>
+          )}
         </div>
       </div>
     </>
