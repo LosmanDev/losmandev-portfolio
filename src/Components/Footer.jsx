@@ -23,13 +23,16 @@ export default function Footer() {
             >
               <Icon width="25" height="25" icon="mdi:github" />
             </a>
-            <a
-              href="https://twitter.com/LosmanDev"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon width="25" height="25" icon="mdi:twitter" />
-            </a>
+            <div className="flex flex-row items-center justify-center">
+              <a className="flex items-center"
+                href="https://twitter.com/LosmanDev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon width="25" height="25" icon="mdi:twitter" />
+                <span className="font-bold text-xl">𝕏</span>
+              </a>
+            </div>
           </div>
         </nav>
       </footer>

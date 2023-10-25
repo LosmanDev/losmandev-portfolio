@@ -1,32 +1,35 @@
 import "./App.css";
-import { motion} from "framer-motion";
-
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import {  useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
-  
-  return (
-    <>
-      <Navbar />
-      <motion.div
-        animate={{
-          x: 0,
-          y: 0,
-          scale: 1,
-          rotate: 0,
-        }}
-      >
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </motion.div>
-    </>
-  );
+  useEffect(() =>{
+    AOS.init();
+  },[])
+
+return (
+  <>
+    <Navbar />
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <Home />
+    </div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <About />
+    </div>
+    <div data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500">
+      <Projects />
+    </div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <Contact />
+      <Footer />
+    </div>
+  </>
+);
 }

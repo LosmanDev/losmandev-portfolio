@@ -49,7 +49,7 @@ const [submitted, setSubmitted] = useState(false);
 
   return (
     <>
-      <div id="contact" className="bg-accent animate-fadeIn pb-28 pt-32">
+      <div className="bg-accent animate-fadeIn pb-28 pt-32">
         <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             Contact
@@ -74,7 +74,10 @@ const [submitted, setSubmitted] = useState(false);
             </div>
           ) : (
             <form onSubmit={handleSubmit(onSubmit)}>
-              <div className="flex flex-col items-center justify-center animate-fadeIn textFont  ">
+              <div
+                id="contact"
+                className="flex flex-col items-center justify-center animate-fadeIn textFont  "
+              >
                 <textarea
                   name="message"
                   id="message"

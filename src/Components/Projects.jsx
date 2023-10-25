@@ -7,9 +7,12 @@ import crypto_suuq from "../assets/images/crypto-suuq.webp";
 export default function Projects() {
   return (
     <>
-      <div id="projects" className="animate-fadeIn pb-28 pt-32">
+      <div className="animate-fadeIn pb-28 pt-32">
         <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
-          <h1 className="font-semibold text-center pb-8 sm:text-3xl text-2xl">
+          <h1
+            id="projects"
+            className="font-semibold text-center pb-8 sm:text-3xl text-2xl"
+          >
             Projects
           </h1>
           <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
