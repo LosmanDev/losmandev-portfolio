@@ -1,21 +1,31 @@
 import { Icon } from "@iconify/react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <div
+        data-aos="fade-down"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="1200"
         id="home"
-        className="flex flex-col items-center justify-center animate-fadeDown pt-32 sm:pt-64 mx-5 pb-28"
+        className="animate-fadeIn flex flex-col items-center justify-center
+         pt-32 sm:pt-64 mx-5 pb-28"
       >
         <h1 className="textFont text-4xl sm:text-7xl font-semibold text-center pb-8">
           <span className="text-5xl  sm:text-7xl wave mr-2">👋🏾</span>Hi,
           I&apos;m Liban Osman
         </h1>
-
         <h1 className="textFont text-center sm:text-2xl font-medium">
           Software Engineer specializing in Web Application Development.
         </h1>
-        <div className="flex flex-row items-center justify-center animate-fadeIn pt-10">
+        <div className="flex flex-row items-center justify-center pt-10">
           <div className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://www.linkedin.com/in/liban-osman-losmandev/"
@@ -47,8 +57,7 @@ export default function Home() {
             <span className="font-medium text-sm text-slate-600">Résumé</span>
           </div>
         </div>
-
-        <div className="flex flex-col items-center justify-center animate-fadeIn sm:pt-36 pt-20 textFont">
+        <div className="flex flex-col items-center justify-center sm:pt-36 pt-20 textFont">
           <h1 className="font-semibold text-2xl sm:text-3xl mr-3 pb-3 text-center">
             &lt;Toolset /&gt;
           </h1>

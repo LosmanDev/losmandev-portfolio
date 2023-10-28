@@ -1,8 +1,19 @@
 import { Link } from "react-scroll";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function Navbar() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <div className="fixed top-0 w-full z-50 navbar bg-accent textFont shadow-lg shadow-black-500/50 animate-fadeIn">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1200"
+        className="fixed top-0 w-full z-50 navbar bg-accent textFont shadow-lg shadow-black-500/50"
+      >
         <div className="navbar-start animate-fadeIn">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-accent lg:hidden">

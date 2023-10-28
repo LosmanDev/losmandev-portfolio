@@ -1,13 +1,12 @@
-import { useState } from 'react';
+import { useState } from "react";
 import { Icon } from "@iconify/react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import Lottie from "lottie-react";
-import animationData from "../assets/email_animation.json"
-
+import animationData from "../assets/email_animation.json";
 
 export default function Contact() {
-const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const defaultOptions = {
     loop: false,
@@ -15,9 +14,8 @@ const [submitted, setSubmitted] = useState(false);
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
-    },}
-
-
+    },
+  };
 
   const {
     register,
@@ -39,23 +37,30 @@ const [submitted, setSubmitted] = useState(false);
       );
     reset();
     console.log(data);
-    setSubmitted(true)
+    setSubmitted(true);
     setTimeout(() => {
       window.location.reload();
       window.scrollTo(0, 0);
     }, 2100);
-    
   };
 
   return (
     <>
-      <div className="bg-accent animate-fadeIn pb-28 pt-32">
-        <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
+      <div className="animate-fadeIn bg-accent pb-28 pt-32">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          className="flex flex-col items-center justify-center textFont"
+        >
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             Contact
           </h1>
         </div>
-        <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+          className="flex flex-col items-center justify-center textFont"
+        >
           <div className="flex flex-row items-center justify-center pb-5">
             <Icon width="25" height="25" icon="fluent:mail-28-filled" />
             <a href="mailto:Losmandev@gmail.com">

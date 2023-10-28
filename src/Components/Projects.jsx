@@ -3,11 +3,21 @@ import behind from "../assets/images/behind.webp";
 import project_x from "../assets/images/projectx.webp";
 import waldo_house from "../assets/images/waldo.webp";
 import crypto_suuq from "../assets/images/crypto-suuq.webp";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Projects() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <div className="animate-fadeIn pb-28 pt-32">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1200"
+        className="animate-fadeIn pb-28 pt-32"
+      >
         <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
           <h1
             id="projects"
@@ -15,7 +25,11 @@ export default function Projects() {
           >
             Projects
           </h1>
-          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
             <figure>
               <img
                 className="animate-slideIn rounded"
@@ -68,7 +82,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
             <figure>
               <img
                 className="animate-slideIn rounded"
@@ -130,7 +148,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
             <figure>
               <img
                 className="animate-slideIn rounded"
@@ -186,7 +208,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral ">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
+          >
             <figure>
               <img
                 className="animate-slideIn rounded"

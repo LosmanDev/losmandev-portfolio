@@ -1,7 +1,14 @@
 import Lottie from "lottie-react";
 import animationData from "../assets/animation_lmmgyu3f.json";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -13,8 +20,12 @@ export default function About() {
 
   return (
     <>
-      <div id="about" className="bg-accent animate-fadeDown pb-28 pt-32">
-        <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
+      <div id="about" className="animate-fadeIn bg-accent pb-28 pt-32">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1200"
+          className="flex flex-col items-center justify-center textFont"
+        >
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             About Me
           </h1>
