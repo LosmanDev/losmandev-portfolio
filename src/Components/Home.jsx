@@ -106,12 +106,6 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="logos:nextjs-icon" />
-            <span className="font-medium text-xs italic text-slate-600">
-              Next.js
-            </span>
-          </div>
-          <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:git" />
             <span className="font-medium text-xs italic text-slate-600">
               Git
@@ -142,7 +136,7 @@ export default function Home() {
               MongoDB
             </span>
           </div>
-          <div className="flex flex-col items-center pr-3 pt-2">
+          {/* <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:strapi-icon" />
             <span className="font-medium text-xs italic text-slate-600">
               Strapi
@@ -153,7 +147,7 @@ export default function Home() {
             <span className="font-medium text-xs italic text-slate-600">
               SQlite
             </span>
-          </div>
+          </div> */}
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:figma" />
             <span className="font-medium text-xs italic text-slate-600">
