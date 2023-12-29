@@ -9,6 +9,7 @@ export default function Footer() {
             <p className="text-primary font-semibold text-lg">
               LosmanDev © {new Date().getFullYear()}
             </p>
+            {/* hello */}
             <a
               href="https://www.linkedin.com/in/liban-osman-losmandev/"
               target="_blank"

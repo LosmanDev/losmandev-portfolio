@@ -1,7 +1,7 @@
-import { Icon } from "@iconify/react";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { Icon } from '@iconify/react';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
   useEffect(() => {
@@ -136,7 +136,7 @@ export default function Home() {
               MongoDB
             </span>
           </div>
-          {/* <div className="flex flex-col items-center pr-3 pt-2">
+          <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:strapi-icon" />
             <span className="font-medium text-xs italic text-slate-600">
               Strapi
@@ -147,7 +147,7 @@ export default function Home() {
             <span className="font-medium text-xs italic text-slate-600">
               SQlite
             </span>
-          </div> */}
+          </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:figma" />
             <span className="font-medium text-xs italic text-slate-600">

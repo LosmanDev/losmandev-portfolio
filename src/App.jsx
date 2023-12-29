@@ -10,14 +10,17 @@ import Footer from "./Components/Footer";
 export default function App() {
 
 
-return (
-  <>
-    <Navbar />
-    <Home />
-    <About />
-    <Projects />
-    <Contact />
-    <Footer />
-  </>
-);
+
+
+
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
