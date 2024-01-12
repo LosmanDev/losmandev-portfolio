@@ -23,7 +23,7 @@ export default function Home() {
           I&apos;m Liban Osman
         </h1>
         <h1 className="textFont text-center sm:text-2xl font-medium">
-          Software Engineer specializing in Web Application Development.
+          Software Engineer Specializing in Web Application Development.
         </h1>
         <div className="flex flex-row items-center justify-center pt-10">
           <div className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
