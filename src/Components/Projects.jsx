@@ -1,11 +1,14 @@
-import { Icon } from "@iconify/react";
-import behind from "../assets/images/behind.webp";
-import project_x from "../assets/images/projectx.webp";
-import waldo_house from "../assets/images/waldo.webp";
-import crypto_suuq from "../assets/images/crypto-suuq.webp";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { Icon } from '@iconify/react';
+import behind from '../assets/images/behind.webp';
+import project_x from '../assets/images/projectx.webp';
+import waldo_house from '../assets/images/waldo.webp';
+import crypto_suuq from '../assets/images/crypto-suuq.webp';
+import td from '../assets/images/TD.webp';
+import nasa from '../assets/images/NASA.webp';
+import github from '../assets/images/GitHub.webp';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Projects() {
   useEffect(() => {
@@ -90,6 +93,78 @@ export default function Projects() {
             <figure>
               <img
                 className="animate-slideIn rounded"
+                src={github}
+                alt="GitHub Person Finder"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">GitHub Person Finder</h2>
+              <p className="text-slate-600 font-light">
+                Utilizing GitHubs API, you can track every user and see their
+                profile and latest public repos.
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-html"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-css"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:bootstrap"
+                />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="skill-icons:javascript"
+                />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="icon-park-solid:api"
+                />
+                <Icon width="25" height="25" icon="mdi:responsive" />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/Github-Person-Finder"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://losmandev.github.io/Github-Person-Finder/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
                 src={waldo_house}
                 alt="Waldo Housing Assistance Center Inc"
               />
@@ -156,6 +231,70 @@ export default function Projects() {
             <figure>
               <img
                 className="animate-slideIn rounded"
+                src={td}
+                alt="TD Garden Events"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">TD Garden Events</h2>
+              <p className="text-slate-600 font-light">
+                A clone of the TD Garden Events section using Javascript to
+                directly manipulate the Document Object Model(DOM).
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-html"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-css"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:bootstrap"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="skill-icons:javascript"
+                />
+                <Icon width="25" height="25" icon="mdi:responsive" />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/TD-Garden-Clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://losmandev.github.io/TD-Garden-Clone/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
                 src={behind}
                 alt="Behind The Cutz"
               />
@@ -174,20 +313,20 @@ export default function Projects() {
                   alt="React logo"
                   icon="logos:react"
                 />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:tailwindcss-icon"
+                />
                 <Icon
                   className="mr-2"
                   width="25"
                   height="25"
                   icon="simple-icons:daisyui"
                 />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="mdi:responsive"
-                />
-
-                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
+                <Icon width="25" height="25" icon="mdi:responsive" />
               </div>
 
               <div className="card-actions justify-center">
@@ -200,6 +339,77 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://behind-the-cutz.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
+                src={nasa}
+                alt="Nasa Photo of the day"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">NASA Photo of The Day</h2>
+              <p className="text-slate-600 font-light">
+                Explore a daily showcase of exceptional images from 1995 to the
+                present, captured through NASA's lens and made accessible via
+                their API..
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-html"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-css"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:bootstrap"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="skill-icons:javascript"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="icon-park-solid:api"
+                />
+                <Icon width="25" height="25" icon="mdi:responsive" />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/NASA-Photo-API"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://losmandev.github.io/NASA-Photo-API/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -234,13 +444,20 @@ export default function Projects() {
                   alt="React logo"
                   icon="logos:react"
                 />
+                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="icon-park-solid:api"
+                />
+
                 <Icon
                   className="mr-2"
                   width="25"
                   height="25"
                   icon="mdi:responsive"
                 />
-                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
               </div>
 
               <div className="card-actions justify-center">
