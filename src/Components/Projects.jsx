@@ -16,11 +16,7 @@ export default function Projects() {
   }, []);
   return (
     <>
-      <div
-        data-aos="fade-down"
-        data-aos-duration="1200"
-        className="animate-fadeIn pb-28 pt-32"
-      >
+      <div className="animate-fadeIn pb-28 pt-32">
         <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
           <h1
             id="projects"
@@ -31,7 +27,7 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
@@ -43,11 +39,8 @@ export default function Projects() {
             <div className="card-body">
               <h2 className="card-title">Project X</h2>
               <p className="text-slate-600 font-light">
-                I collaborated with my team(Tech Dive Group 6) from the
-                Hack.Diversity Fellowship to develop a web application that
-                enables doctors to Create, Read, Update, and Delete (CRUD)
-                structured radiology reports as part of their assessment of
-                x-ray images for patients with COVID-19.
+                Full Stack Web Application for Radiology Reporting of COVID-19
+                Chest X-Rays.
               </p>
               <div className="flex flex-row animate-fadeIn py-5">
                 <Icon
@@ -88,7 +81,7 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
@@ -160,7 +153,7 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
@@ -174,33 +167,28 @@ export default function Projects() {
                 Waldo Housing Assistance Center Inc
               </h2>
               <p className="text-slate-600 font-light">
-                Waldo Housing Assistance Center Inc is a Nonprofit Housing
-                Organization based in Boston, MA.
+                A Nonprofit Housing Organization based in Boston, MA.
               </p>
               <div className="flex flex-row animate-fadeIn py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="vscode-icons:file-type-html"
+                  icon="logos:nextjs-icon"
                 />
+                <Icon
+                  width="25"
+                  height="25"
+                  className="mr-2 logo react"
+                  alt="React logo"
+                  icon="logos:react"
+                />
+
                 <Icon
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="vscode-icons:file-type-css"
-                />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="logos:bootstrap"
-                />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="skill-icons:javascript"
+                  icon="logos:tailwindcss-icon"
                 />
                 <Icon width="25" height="25" icon="mdi:responsive" />
               </div>
@@ -226,7 +214,7 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
@@ -290,7 +278,7 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
@@ -350,7 +338,7 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
           >
             <figure>
               <img
@@ -363,8 +351,8 @@ export default function Projects() {
               <h2 className="card-title">NASA Photo of The Day</h2>
               <p className="text-slate-600 font-light">
                 Explore a daily showcase of exceptional images from 1995 to the
-                present, captured through NASA's lens and made accessible via
-                their API..
+                present, captured through NASA&apos;s lens and made accessible
+                via their API..
               </p>
               <div className="flex flex-row animate-fadeIn py-5">
                 <Icon
@@ -421,7 +409,7 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-3/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
           >
             <figure>
               <img

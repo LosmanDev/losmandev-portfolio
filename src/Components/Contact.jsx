@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { Icon } from "@iconify/react";
-import { useForm } from "react-hook-form";
-import emailjs from "@emailjs/browser";
-import Lottie from "lottie-react";
-import animationData from "../assets/email_animation.json";
+import { useState } from 'react';
+import { Icon } from '@iconify/react';
+import { useForm } from 'react-hook-form';
+import emailjs from '@emailjs/browser';
+import Lottie from 'lottie-react';
+import animationData from '../assets/email_animation.json';
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
@@ -13,7 +13,7 @@ export default function Contact() {
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
+      preserveAspectRatio: 'xMidYMid slice',
     },
   };
 
@@ -26,14 +26,14 @@ export default function Contact() {
 
   const onSubmit = (data) => {
     emailjs
-      .send("service_dbwpp2s", "template_ok5qdxf", data, "Pu9T4ZADTt9dCVd-2")
+      .send('service_dbwpp2s', 'template_ok5qdxf', data, 'Pu9T4ZADTt9dCVd-2')
       .then(
         (result) => {
           console.log(result.text);
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
     reset();
     console.log(data);
@@ -53,7 +53,7 @@ export default function Contact() {
           className="flex flex-col items-center justify-center textFont"
         >
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
-            Contact
+            Let&apos;s Get In Touch!
           </h1>
         </div>
         <div
@@ -86,18 +86,18 @@ export default function Contact() {
                 <textarea
                   name="message"
                   id="message"
-                  {...register("Message", {
-                    required: "Message too short",
+                  {...register('Message', {
+                    required: 'Message too short',
                     pattern: {
                       value: /^(\S+\s+){3}\S+.*$/,
-                      message: "Message too short",
+                      message: 'Message too short',
                     },
                   })}
                   placeholder="Message"
                   className={
                     errors.Message?.message
-                      ? "textarea textarea-error textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
-                      : "textarea textarea-primary textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10"
+                      ? 'textarea textarea-error textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10'
+                      : 'textarea textarea-primary textarea-lg w-full sm:max-w-lg max-w-xs sm:mx-10'
                   }
                 />
 
@@ -105,8 +105,8 @@ export default function Contact() {
                   type="submit"
                   className={
                     errors.Message?.message
-                      ? "btn btn-disabled text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10"
-                      : "btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10"
+                      ? 'btn btn-disabled text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10'
+                      : 'btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10'
                   }
                 >
                   Let&apos;s Connect

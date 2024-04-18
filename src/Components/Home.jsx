@@ -106,6 +106,12 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="logos:nextjs-icon" />
+            <span className="font-medium text-xs italic text-slate-600">
+              Nextjs
+            </span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:git" />
             <span className="font-medium text-xs italic text-slate-600">
               Git
@@ -142,12 +148,7 @@ export default function Home() {
               Strapi
             </span>
           </div>
-          <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="skill-icons:sqlite" />
-            <span className="font-medium text-xs italic text-slate-600">
-              SQlite
-            </span>
-          </div>
+
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:figma" />
             <span className="font-medium text-xs italic text-slate-600">
