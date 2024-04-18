@@ -202,7 +202,7 @@ export default function Projects() {
                   <button className="btn btn-outline">&lt;Code/&gt;</button>
                 </a>
                 <a
-                  href="https://waldohousingassistance.org/"
+                  href="https://waldohousing.org/"
                   target="_blank"
                   rel="noreferrer"
                 >
