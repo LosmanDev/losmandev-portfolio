@@ -22,9 +22,10 @@ export default function Home() {
           <span className="text-5xl  sm:text-7xl wave mr-2">👋🏾</span>Hi,
           I&apos;m Liban Osman
         </h1>
-        <h1 className="textFont text-center sm:text-2xl font-medium">
-          Software Engineer Specializing in Web Application Development.
+        <h1 className="textFont text-center sm:text-2xl font-medium mb-3">
+          Full Stack Developer
         </h1>
+        <h3 className="font-medium italic">Digitalizing Ideas for the Web✨</h3>
         <div className="flex flex-row items-center justify-center pt-10">
           <div className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
