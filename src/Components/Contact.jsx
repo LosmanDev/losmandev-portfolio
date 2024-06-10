@@ -89,7 +89,7 @@ export default function Contact() {
                   {...register('Message', {
                     required: 'Message too short',
                     pattern: {
-                      value: /^(\S+\s+){3}\S+.*$/,
+                      value: /^(\S+\s+){2}\S+.*$/,
                       message: 'Message too short',
                     },
                   })}
