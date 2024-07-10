@@ -26,21 +26,30 @@ export default function About() {
           data-aos-duration="1200"
           className="flex flex-col items-center justify-center textFont"
         >
-          <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
+          <h1
+            data-aos="fade-right"
+            data-aos-delay="0"
+            data-aos-duration="1200"
+            className="font-semibold text-center sm:text-3xl text-2xl pb-8"
+          >
             About Me
           </h1>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            className="flex flex-col sm:flex-row items-center justify-center"
-          >
+          <div className="flex flex-col sm:flex-row items-center justify-center">
             <Lottie
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
               animationData={animationData}
               options={defaultOptions}
               className="w-full sm:w-1/3"
             />
 
-            <p className="text-slate-500 text-center sm:text-xl sm:w-2/6 px-2">
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+              className="text-slate-500 text-center sm:text-xl sm:w-2/6 px-2"
+            >
               Beyond software development, my hobbies include playing sports,
               swimming, and enjoying life with my loved ones. My technical
               experience gives me the confidence to pick up new information

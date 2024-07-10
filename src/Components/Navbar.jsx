@@ -1,7 +1,7 @@
-import { Link } from "react-scroll";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { Link } from 'react-scroll';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Navbar() {
   useEffect(() => {
@@ -93,7 +93,7 @@ export default function Navbar() {
             &lt;LosmanDev /&gt;
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link

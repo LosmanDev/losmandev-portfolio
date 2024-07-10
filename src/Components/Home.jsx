@@ -18,15 +18,37 @@ export default function Home() {
         className="animate-fadeIn flex flex-col items-center justify-center
          pt-32 sm:pt-64 mx-5 pb-28"
       >
-        <h1 className="textFont text-4xl sm:text-7xl font-semibold text-center pb-8">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="0"
+          className="textFont text-4xl sm:text-7xl font-semibold text-center pb-8"
+        >
           <span className="text-5xl  sm:text-7xl wave mr-2">👋🏾</span>Hi,
           I&apos;m Liban Osman
         </h1>
-        <h1 className="textFont text-center sm:text-2xl font-medium mb-3">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+          className="textFont text-center sm:text-2xl font-medium mb-3"
+        >
           Full Stack Developer
         </h1>
-        <h3 className="font-medium italic">Digitalizing Ideas for the Web✨</h3>
-        <div className="flex flex-row items-center justify-center pt-10">
+        <h3
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="400"
+          className="font-medium italic"
+        >
+          Digitalizing Ideas for the Web✨
+        </h3>
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="600"
+          className="flex flex-row items-center justify-center pt-10"
+        >
           <div className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out ">
             <a
               href="https://www.linkedin.com/in/liban-osman-losmandev/"
@@ -58,12 +80,22 @@ export default function Home() {
             <span className="font-medium text-sm text-slate-600">Résumé</span>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center sm:pt-36 pt-20 textFont">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="800"
+          className="flex flex-col items-center justify-center sm:pt-36 pt-20 textFont"
+        >
           <h1 className="font-semibold text-2xl sm:text-3xl mr-3 pb-3 text-center">
             &lt;Toolset /&gt;
           </h1>
         </div>
-        <div className="flex flex-wrap flex-row items-center justify-center px-5 py-5">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="1000"
+          className="flex flex-wrap flex-row items-center justify-center px-5 py-5"
+        >
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="vscode-icons:file-type-html" />
             <span className="font-medium text-xs italic text-slate-600">
