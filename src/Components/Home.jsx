@@ -9,23 +9,24 @@ export default function Home() {
          pt-32 sm:pt-64 mx-5 pb-28"
       >
         <h1
-          data-aos="fade-down"
-          data-aos-delay="0"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="2000"
           className="textFont text-4xl sm:text-7xl font-semibold text-center pb-8"
         >
           <span className="text-5xl  sm:text-7xl wave mr-2">👋🏾</span>Hi,
           I&apos;m Liban Osman
         </h1>
         <h1
-          data-aos="fade-down"
-          data-aos-delay="150"
+          data-aos="fade-right"
+          data-aos-delay="250"
           className="textFont text-center sm:text-2xl font-medium mb-3"
         >
           Full Stack Developer
         </h1>
         <h3
-          data-aos="fade-down"
-          data-aos-delay="300"
+          data-aos="fade-right"
+          data-aos-delay="400"
           className="font-medium italic"
         >
           Digitalizing Ideas for the{' '}
@@ -79,7 +80,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          data-aos="fade-down"
+          data-aos="fade-right"
           data-aos-delay="300"
           className="flex flex-col items-center justify-center sm:pt-36 pt-20 textFont"
         >
