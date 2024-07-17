@@ -9,35 +9,27 @@ import github from '../assets/images/GitHub.webp';
 import boyah from '../assets/images/boyah.webp';
 import only from '../assets/images/only.webp';
 import masjid from '../assets/images/masjid.webp';
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 export default function Projects() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
-      <div className="animate-fadeIn pb-28 pt-32">
-        <div className="flex flex-col items-center justify-center animate-fadeIn textFont">
+      <div className="pb-28 pt-32">
+        <div className="flex flex-col items-center justify-center textFont">
           <h1
+            data-aos="fade-down"
+            data-aos-delay="100"
             id="projects"
             className="font-semibold text-center pb-8 sm:text-3xl text-2xl"
           >
             Projects
           </h1>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
-              <img
-                className="animate-slideIn rounded"
-                src={behind}
-                alt="Behind The Cutz"
-              />
+              <img className="rounded" src={behind} alt="Behind The Cutz" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Behind The Cutz</h2>
@@ -45,7 +37,7 @@ export default function Projects() {
                 Behind The Cutz is a mobile waitlist app under development for
                 my local barber.
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
+              <div className="flex flex-row py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -93,15 +85,15 @@ export default function Projects() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
-                className="animate-slideIn rounded"
+                className=" rounded"
                 src={waldo_house}
-                alt="Waldo Housing Assistance Center Inc"
+                alt="Waldo Immigration  and Refugee Assistance Center Inc"
               />
             </figure>
             <div className="card-body">
@@ -111,7 +103,7 @@ export default function Projects() {
               <p className="text-slate-600 font-light">
                 A Nonprofit Organization Based in Boston, MA
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
+              <div className="flex flex-row  py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -153,16 +145,12 @@ export default function Projects() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
-              <img
-                className="animate-slideIn rounded"
-                src={project_x}
-                alt="Project X"
-              />
+              <img className=" rounded" src={project_x} alt="Project X" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Project X</h2>
@@ -170,7 +158,7 @@ export default function Projects() {
                 Full Stack Web Application for Radiology Reporting of COVID-19
                 Chest X-Rays.
               </p>
-              <div className="flex flex-row animate-fadeIn py-5">
+              <div className="flex flex-row  py-5">
                 <Icon
                   width="25"
                   height="25"
@@ -207,15 +195,15 @@ export default function Projects() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
-                className="animate-slideIn rounded"
+                className=" rounded"
                 src={masjid}
-                alt="Waldo Housing Assistance Center Inc"
+                alt="Local Masjid website"
               />
             </figure>
             <div className="card-body">
@@ -223,7 +211,7 @@ export default function Projects() {
               <p className="text-slate-600 font-light">
                 Local Malden Masjid: A Beacon of Faith and Education
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
+              <div className="flex flex-row  py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -265,15 +253,15 @@ export default function Projects() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
-                className="animate-slideIn rounded"
+                className=" rounded"
                 src={only}
-                alt="GitHub Person Finder"
+                alt="Nurse Staffing Agency"
               />
             </figure>
             <div className="card-body">
@@ -282,7 +270,7 @@ export default function Projects() {
                 Minnesota based nurse staffing agency, state certified and have
                 a number of years of experience.
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
+              <div className="flex flex-row  py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -329,15 +317,15 @@ export default function Projects() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
-                className="animate-slideIn rounded"
+                className=" rounded"
                 src={boyah}
-                alt="Waldo Housing Assistance Center Inc"
+                alt="Blog website for Boyah J Farah"
               />
             </figure>
             <div className="card-body">
@@ -347,7 +335,7 @@ export default function Projects() {
                 Image Award Nominee · Winner of Black Authors Matter TV Awards ·
                 NPR&apos;s Best Book and many more.
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
+              <div className="flex flex-row  py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -390,13 +378,13 @@ export default function Projects() {
           </div>
 
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
               <img
-                className="animate-slideIn rounded"
+                className=" rounded"
                 src={github}
                 alt="GitHub Person Finder"
               />
@@ -407,7 +395,7 @@ export default function Projects() {
                 Utilizing GitHubs API, you can track every user and see their
                 profile and latest public repos.
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
+              <div className="flex flex-row  py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -461,16 +449,12 @@ export default function Projects() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
           >
             <figure>
-              <img
-                className="animate-slideIn rounded"
-                src={crypto_suuq}
-                alt="Crypto Suuq"
-              />
+              <img className=" rounded" src={crypto_suuq} alt="Crypto Suuq" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Crypto Suuq</h2>
@@ -478,7 +462,7 @@ export default function Projects() {
                 Track your favorite crypto prices utilizing the coin ranking
                 API.
               </p>
-              <div className="flex flex-row animate-fadeIn py-5">
+              <div className="flex flex-row  py-5">
                 <Icon
                   width="25"
                   height="25"
@@ -515,16 +499,12 @@ export default function Projects() {
           </div>
 
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
-              <img
-                className="animate-slideIn rounded"
-                src={td}
-                alt="TD Garden Events"
-              />
+              <img className=" rounded" src={td} alt="TD Garden Events" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">TD Garden Events</h2>
@@ -532,7 +512,7 @@ export default function Projects() {
                 A clone of the TD Garden Events section using Javascript to
                 directly manipulate the Document Object Model(DOM).
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
+              <div className="flex flex-row  py-5 ">
                 <Icon
                   className="mr-2"
                   width="25"
@@ -578,13 +558,13 @@ export default function Projects() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
+            data-aos="fade-right"
+            data-aos-delay="100"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
           >
             <figure>
               <img
-                className="animate-slideIn rounded"
+                className=" rounded"
                 src={nasa}
                 alt="Nasa Photo of the day"
               />
@@ -596,7 +576,7 @@ export default function Projects() {
                 present, captured through NASA&apos;s lens and made accessible
                 via their API..
               </p>
-              <div className="flex flex-row animate-fadeIn py-5">
+              <div className="flex flex-row  py-5">
                 <Icon
                   className="mr-2"
                   width="25"
