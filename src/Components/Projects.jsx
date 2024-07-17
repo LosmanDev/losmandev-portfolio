@@ -6,6 +6,9 @@ import crypto_suuq from '../assets/images/crypto-suuq.webp';
 import td from '../assets/images/TD.webp';
 import nasa from '../assets/images/NASA.webp';
 import github from '../assets/images/GitHub.webp';
+import boyah from '../assets/images/boyah.webp';
+import only from '../assets/images/only.webp';
+import masjid from '../assets/images/masjid.webp';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,6 +27,131 @@ export default function Projects() {
           >
             Projects
           </h1>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
+                src={behind}
+                alt="Behind The Cutz"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Behind The Cutz</h2>
+              <p className="text-slate-600 font-light">
+                Behind The Cutz is a mobile waitlist app under development for
+                my local barber.
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:nextjs-icon"
+                />
+                <Icon
+                  width="25"
+                  height="25"
+                  className="logo react mr-2"
+                  alt="React logo"
+                  icon="logos:react"
+                />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:tailwindcss-icon"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:postgresql"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/BehindTheCutz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://behindthecutz.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
+                src={waldo_house}
+                alt="Waldo Housing Assistance Center Inc"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">
+                Waldo Immigration and Refugee Assistance Center Inc
+              </h2>
+              <p className="text-slate-600 font-light">
+                A Nonprofit Organization Based in Boston, MA
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:nextjs-icon"
+                />
+                <Icon
+                  width="25"
+                  height="25"
+                  className="mr-2 logo react"
+                  alt="React logo"
+                  icon="logos:react"
+                />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:tailwindcss-icon"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/Waldo-Refugee"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://waldorefugee.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐</button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
@@ -86,6 +214,189 @@ export default function Projects() {
             <figure>
               <img
                 className="animate-slideIn rounded"
+                src={masjid}
+                alt="Waldo Housing Assistance Center Inc"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Masjid At Taqwa</h2>
+              <p className="text-slate-600 font-light">
+                Local Malden Masjid: A Beacon of Faith and Education
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:nextjs-icon"
+                />
+                <Icon
+                  width="25"
+                  height="25"
+                  className="mr-2 logo react"
+                  alt="React logo"
+                  icon="logos:react"
+                />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:tailwindcss-icon"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/Masjid-AT-Taqwa"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://masjid-at-taqwa.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
+                src={only}
+                alt="GitHub Person Finder"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">1 and Only Staffing LLC</h2>
+              <p className="text-slate-600 font-light">
+                Minnesota based nurse staffing agency, state certified and have
+                a number of years of experience.
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-html"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-css"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:bootstrap"
+                />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="skill-icons:javascript"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/1AndOnlyStaffingLLC"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://1andonlystaffingllc.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
+                src={boyah}
+                alt="Waldo Housing Assistance Center Inc"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Boyah J Farah</h2>
+              <p className="text-slate-600 font-light">
+                Blog for Boyah J Farah, America Made Me A Black Man is NAACP
+                Image Award Nominee · Winner of Black Authors Matter TV Awards ·
+                NPR&apos;s Best Book and many more.
+              </p>
+              <div className="flex flex-row animate-fadeIn py-5 ">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:nextjs-icon"
+                />
+                <Icon
+                  width="25"
+                  height="25"
+                  className="mr-2 logo react"
+                  alt="React logo"
+                  icon="logos:react"
+                />
+
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:tailwindcss-icon"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/BoyahJFarah"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://boyahjfarah.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+          >
+            <figure>
+              <img
+                className="animate-slideIn rounded"
                 src={github}
                 alt="GitHub Person Finder"
               />
@@ -129,7 +440,6 @@ export default function Projects() {
                   height="25"
                   icon="icon-park-solid:api"
                 />
-                <Icon width="25" height="25" icon="mdi:responsive" />
               </div>
 
               <div className="card-actions justify-center">
@@ -153,64 +463,57 @@ export default function Projects() {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
           >
             <figure>
               <img
                 className="animate-slideIn rounded"
-                src={waldo_house}
-                alt="Waldo Housing Assistance Center Inc"
+                src={crypto_suuq}
+                alt="Crypto Suuq"
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">
-                Waldo Housing Assistance Center Inc
-              </h2>
+              <h2 className="card-title">Crypto Suuq</h2>
               <p className="text-slate-600 font-light">
-                A Nonprofit Housing Organization based in Boston, MA.
+                Track your favorite crypto prices utilizing the coin ranking
+                API.
               </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="logos:nextjs-icon"
-                />
+              <div className="flex flex-row animate-fadeIn py-5">
                 <Icon
                   width="25"
                   height="25"
-                  className="mr-2 logo react"
+                  className="logo react mr-2"
                   alt="React logo"
                   icon="logos:react"
                 />
-
+                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
                 <Icon
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="logos:tailwindcss-icon"
+                  icon="icon-park-solid:api"
                 />
-                <Icon width="25" height="25" icon="mdi:responsive" />
               </div>
 
               <div className="card-actions justify-center">
                 <a
-                  href="https://github.com/LosmanDev/WaldoFoundation"
+                  href="https://github.com/LosmanDev/crypto-suuq"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="btn btn-outline">&lt;Code/&gt;</button>
                 </a>
                 <a
-                  href="https://waldohousing.org/"
+                  href="https://crypto-suuq.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="btn btn-outline">Visit🌐</button>
+                  <button className="btn btn-outline">Visit🌐 </button>
                 </a>
               </div>
             </div>
           </div>
+
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
@@ -254,7 +557,6 @@ export default function Projects() {
                   height="25"
                   icon="skill-icons:javascript"
                 />
-                <Icon width="25" height="25" icon="mdi:responsive" />
               </div>
 
               <div className="card-actions justify-center">
@@ -267,66 +569,6 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://losmandev.github.io/TD-Garden-Clone/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">Visit🌐 </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
-            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
-          >
-            <figure>
-              <img
-                className="animate-slideIn rounded"
-                src={behind}
-                alt="Behind The Cutz"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Behind The Cutz</h2>
-              <p className="text-slate-600 font-light">
-                Behind The Cutz is a waitlist app under development for my local
-                barber.
-              </p>
-              <div className="flex flex-row animate-fadeIn py-5 ">
-                <Icon
-                  width="25"
-                  height="25"
-                  className="logo react mr-2"
-                  alt="React logo"
-                  icon="logos:react"
-                />
-
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="logos:tailwindcss-icon"
-                />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="simple-icons:daisyui"
-                />
-                <Icon width="25" height="25" icon="mdi:responsive" />
-              </div>
-
-              <div className="card-actions justify-center">
-                <a
-                  href="https://github.com/LosmanDev/BehindTheCutz"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">&lt;Code/&gt;</button>
-                </a>
-                <a
-                  href="https://behind-the-cutz.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -385,7 +627,6 @@ export default function Projects() {
                   height="25"
                   icon="icon-park-solid:api"
                 />
-                <Icon width="25" height="25" icon="mdi:responsive" />
               </div>
 
               <div className="card-actions justify-center">
@@ -398,66 +639,6 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://losmandev.github.io/NASA-Photo-API/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">Visit🌐 </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
-            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
-          >
-            <figure>
-              <img
-                className="animate-slideIn rounded"
-                src={crypto_suuq}
-                alt="Crypto Suuq"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Crypto Suuq</h2>
-              <p className="text-slate-600 font-light">
-                Track your favorite crypto prices utilizing the coin ranking
-                API.
-              </p>
-              <div className="flex flex-row animate-fadeIn py-5">
-                <Icon
-                  width="25"
-                  height="25"
-                  className="logo react mr-2"
-                  alt="React logo"
-                  icon="logos:react"
-                />
-                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="icon-park-solid:api"
-                />
-
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="mdi:responsive"
-                />
-              </div>
-
-              <div className="card-actions justify-center">
-                <a
-                  href="https://github.com/LosmanDev/crypto-suuq"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">&lt;Code/&gt;</button>
-                </a>
-                <a
-                  href="https://crypto-suuq.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

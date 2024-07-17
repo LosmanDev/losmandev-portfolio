@@ -145,30 +145,17 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="devicon:git" />
-            <span className="font-medium text-xs italic text-slate-600">
-              Git
-            </span>
-          </div>
-          <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="devicon:bash" />
-            <span className="font-medium text-xs italic text-slate-600">
-              Bash
-            </span>
-          </div>
-          <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:nodejs" />
             <span className="font-medium text-xs italic text-slate-600">
               Node.js
             </span>
           </div>
           <div className="flex flex-col items-center pr-3 pt-2">
-            <Icon width="30" height="30" icon="logos:playwright" />
+            <Icon width="30" height="30" icon="logos:postgresql" />
             <span className="font-medium text-xs italic text-slate-600">
-              Playwright
+              PostgreSQL
             </span>
           </div>
-
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="devicon:mongodb" />
             <span className="font-medium text-xs italic text-slate-600">
@@ -181,7 +168,24 @@ export default function Home() {
               Strapi
             </span>
           </div>
-
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="logos:playwright" />
+            <span className="font-medium text-xs italic text-slate-600">
+              Playwright
+            </span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="devicon:git" />
+            <span className="font-medium text-xs italic text-slate-600">
+              Git
+            </span>
+          </div>
+          <div className="flex flex-col items-center pr-3 pt-2">
+            <Icon width="30" height="30" icon="devicon:bash" />
+            <span className="font-medium text-xs italic text-slate-600">
+              Bash
+            </span>
+          </div>
           <div className="flex flex-col items-center pr-3 pt-2">
             <Icon width="30" height="30" icon="logos:figma" />
             <span className="font-medium text-xs italic text-slate-600">
