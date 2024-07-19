@@ -13,7 +13,7 @@ export default function About() {
 
   return (
     <>
-      <div id="about" className="animate-fadeIn bg-accent pb-28 pt-32">
+      <div id="about" className="bg-accent pb-28 pt-32">
         <div className="flex flex-col items-center justify-center textFont">
           <h1
             data-aos="fade-down"
@@ -22,12 +22,10 @@ export default function About() {
           >
             About Me
           </h1>
-          <div
-            data-aos="fade-right"
-            data-aos-delay="200"
-            className="flex flex-col sm:flex-row items-center justify-center"
-          >
+          <div className="flex flex-col sm:flex-row items-center justify-center">
             <Lottie
+              data-aos="fade-right"
+              data-aos-delay="200"
               animationData={animationData}
               options={defaultOptions}
               className="w-full sm:w-1/3"
@@ -35,9 +33,16 @@ export default function About() {
 
             <p
               data-aos="fade-right"
-              data-aos-delay="600"
-              className="text-slate-500 text-center sm:text-xl sm:w-2/6 px-2"
+              data-aos-delay="400"
+              className="lg:leading-snug sm: text-slate-500 text-center text-sm sm:w-2/6 px-2 fade-in-up"
             >
+              I&apos;m a highly motivated IT professional with experience in
+              both frontend and backend development. Skilled in crafting
+              user-friendly interfaces with HTML5, CSS3, JavaScript (ES6+),
+              TypeScript, and React/Nextjs. Adept at building robust backend
+              logic and APIs using Node.js, PostgreSQL, Php and RESTful
+              principles.
+              <br />
               Beyond software development, my hobbies include playing sports,
               swimming, and enjoying life with my loved ones. My technical
               experience gives me the confidence to pick up new information

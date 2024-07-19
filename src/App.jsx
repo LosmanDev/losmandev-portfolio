@@ -12,9 +12,12 @@ import Footer from './Components/Footer';
 export default function App() {
   useEffect(() => {
     AOS.init({
+      startEvent: 'DOMContentLoaded',
+      throttleDelay: 99,
       duration: 1500,
       once: true,
       mirror: true,
+      easing: 'ease',
     });
   }, []);
   return (

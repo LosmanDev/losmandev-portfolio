@@ -10,8 +10,7 @@ export default function Home() {
       >
         <h1
           data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-duration="2000"
+          data-aos-delay="0"
           className="textFont text-4xl sm:text-7xl font-semibold text-center pb-8"
         >
           <span className="text-5xl  sm:text-7xl wave mr-2">👋🏾</span>Hi,
@@ -19,7 +18,7 @@ export default function Home() {
         </h1>
         <h1
           data-aos="fade-right"
-          data-aos-delay="250"
+          data-aos-delay="200"
           className="textFont text-center sm:text-2xl font-medium mb-3"
         >
           Full Stack Developer
@@ -38,7 +37,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center pt-10">
           <div
             data-aos="fade-right"
-            data-aos-delay="100"
+            data-aos-delay="600"
             className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out "
           >
             <a
@@ -52,7 +51,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="200"
+            data-aos-delay="800"
             className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out "
           >
             <a
@@ -66,7 +65,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="350"
+            data-aos-delay="1000"
             className="flex flex-col items-center px-4 pt-2 transform hover:scale-110 transition duration-200 ease-in-out "
           >
             <a
@@ -81,7 +80,7 @@ export default function Home() {
         </div>
         <div
           data-aos="fade-right"
-          data-aos-delay="300"
+          data-aos-delay="0"
           className="flex flex-col items-center justify-center sm:pt-36 pt-20 textFont"
         >
           <h1 className="font-semibold text-2xl sm:text-3xl mr-3 pb-3 text-center">
@@ -91,7 +90,7 @@ export default function Home() {
         <div className="flex flex-wrap flex-row items-center justify-center px-5 py-5">
           <div
             data-aos="fade-right"
-            data-aos-delay="0"
+            data-aos-delay="100"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="vscode-icons:file-type-html" />
@@ -101,7 +100,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="100"
+            data-aos-delay="200"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="vscode-icons:file-type-css" />
@@ -111,7 +110,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="200"
+            data-aos-delay="400"
             className="flex flex-col items-center pr-3 pt-2 "
           >
             <Icon width="30" height="30" icon="logos:tailwindcss-icon" />
@@ -121,7 +120,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="300"
+            data-aos-delay="600"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="skill-icons:javascript" />
@@ -131,7 +130,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="400"
+            data-aos-delay="800"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="skill-icons:typescript" />
@@ -141,7 +140,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="500"
+            data-aos-delay="1000"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon
@@ -157,7 +156,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="600"
+            data-aos-delay="1200"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="logos:nextjs-icon" />
@@ -167,7 +166,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="700"
+            data-aos-delay="1400"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="devicon:nodejs" />
@@ -177,7 +176,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="800"
+            data-aos-delay="1600"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="logos:postgresql" />
@@ -187,7 +186,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="900"
+            data-aos-delay="1800"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="devicon:mongodb" />
@@ -197,7 +196,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="1000"
+            data-aos-delay="2000"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="logos:strapi-icon" />
@@ -207,7 +206,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="1100"
+            data-aos-delay="2200"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="logos:playwright" />
@@ -217,7 +216,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="1200"
+            data-aos-delay="2400"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="devicon:git" />
@@ -227,7 +226,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="1300"
+            data-aos-delay="2600"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="devicon:bash" />
@@ -237,7 +236,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="1400"
+            data-aos-delay="2800"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="logos:figma" />
@@ -247,7 +246,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-delay="1500"
+            data-aos-delay="3000"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="devicon:gimp" />
