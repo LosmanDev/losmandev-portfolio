@@ -80,7 +80,7 @@ export default function Home() {
         </div>
         <div
           data-aos="fade-right"
-          data-aos-delay="0"
+          data-aos-delay="1100"
           className="flex flex-col items-center justify-center sm:pt-36 pt-20 textFont"
         >
           <h1 className="font-semibold text-2xl sm:text-3xl mr-3 pb-3 text-center">
@@ -113,7 +113,7 @@ export default function Home() {
             data-aos-delay="400"
             className="flex flex-col items-center pr-3 pt-2 "
           >
-            <Icon width="30" height="30" icon="logos:tailwindcss-icon" />
+            <Icon width="30" height="30" icon="devicon:tailwindcss" />
             <span className="font-medium text-xs italic text-slate-600">
               Tailwind CSS
             </span>

@@ -48,20 +48,20 @@ export default function Contact() {
     <>
       <div className="animate-fadeIn bg-accent pb-28 pt-32">
         <div
-          data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos="fade-right"
+          data-aos-delay="0"
           className="flex flex-col items-center justify-center textFont"
         >
           <h1 className="font-semibold text-center sm:text-3xl text-2xl pb-8">
             Let&apos;s Get In Touch!
           </h1>
         </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          className="flex flex-col items-center justify-center textFont"
-        >
-          <div className="flex flex-row items-center justify-center pb-5">
+        <div className="flex flex-col items-center justify-center textFont">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="flex flex-row items-center justify-center pb-5"
+          >
             <Icon width="25" height="25" icon="fluent:mail-28-filled" />
             <a href="mailto:Losmandev@gmail.com">
               <h1 className="font-medium italic pl-1">
@@ -80,6 +80,8 @@ export default function Contact() {
           ) : (
             <form onSubmit={handleSubmit(onSubmit)}>
               <div
+                data-aos="fade-right"
+                data-aos-delay="200"
                 id="contact"
                 className="flex flex-col items-center justify-center animate-fadeIn textFont  "
               >

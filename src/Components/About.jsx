@@ -40,8 +40,9 @@ export default function About() {
               both frontend and backend development. Skilled in crafting
               user-friendly interfaces with HTML5, CSS3, JavaScript (ES6+),
               TypeScript, and React/Nextjs. Adept at building robust backend
-              logic and APIs using Node.js, PostgreSQL, Php and RESTful
-              principles.
+              logic and APIs using Node.js, Next(SSR, SSG, API Routes) Php,
+              PostgreSQL, MySQL, MongoDB. and RESTful principles.
+              <br />
               <br />
               Beyond software development, my hobbies include playing sports,
               swimming, and enjoying life with my loved ones. My technical

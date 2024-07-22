@@ -9,6 +9,8 @@ import github from '../assets/images/GitHub.webp';
 import boyah from '../assets/images/boyah.webp';
 import only from '../assets/images/only.webp';
 import masjid from '../assets/images/masjid.webp';
+import nomad from '../assets/images/nomad.webp';
+import halal from '../assets/images/halal.webp';
 
 export default function Projects() {
   return (
@@ -16,7 +18,6 @@ export default function Projects() {
       <div className="pb-28 pt-32">
         <div className="flex flex-col items-center justify-center textFont">
           <h1
-            data-aos="fade-down"
             data-aos-delay="100"
             id="projects"
             className="font-semibold text-center pb-8 sm:text-3xl text-2xl"
@@ -26,6 +27,7 @@ export default function Projects() {
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -56,7 +58,7 @@ export default function Projects() {
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="logos:tailwindcss-icon"
+                  icon="devicon:tailwindcss"
                 />
                 <Icon
                   className="mr-2"
@@ -87,6 +89,7 @@ export default function Projects() {
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -122,7 +125,7 @@ export default function Projects() {
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="logos:tailwindcss-icon"
+                  icon="devicon:tailwindcss"
                 />
               </div>
 
@@ -147,6 +150,7 @@ export default function Projects() {
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -197,6 +201,7 @@ export default function Projects() {
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -230,7 +235,7 @@ export default function Projects() {
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="logos:tailwindcss-icon"
+                  icon="devicon:tailwindcss"
                 />
               </div>
 
@@ -255,6 +260,7 @@ export default function Projects() {
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -319,6 +325,7 @@ export default function Projects() {
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -354,7 +361,7 @@ export default function Projects() {
                   className="mr-2"
                   width="25"
                   height="25"
-                  icon="logos:tailwindcss-icon"
+                  icon="devicon:tailwindcss"
                 />
               </div>
 
@@ -376,10 +383,61 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
+          >
+            <figure>
+              <img className=" rounded" src={crypto_suuq} alt="Crypto Suuq" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Crypto Suuq</h2>
+              <p className="text-slate-600 font-light">
+                Track your favorite crypto prices utilizing the coin ranking
+                API.
+              </p>
+              <div className="flex flex-row  py-5">
+                <Icon
+                  width="25"
+                  height="25"
+                  className="logo react mr-2"
+                  alt="React logo"
+                  icon="logos:react"
+                />
+                <Icon width="25" height="25" icon="devicon:tailwindcss" />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="icon-park-solid:api"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/crypto-suuq"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://crypto-suuq.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
+              </div>
+            </div>
+          </div>
 
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -448,59 +506,11 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div
-            data-aos="fade-right"
-            data-aos-delay="100"
-            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
-          >
-            <figure>
-              <img className=" rounded" src={crypto_suuq} alt="Crypto Suuq" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Crypto Suuq</h2>
-              <p className="text-slate-600 font-light">
-                Track your favorite crypto prices utilizing the coin ranking
-                API.
-              </p>
-              <div className="flex flex-row  py-5">
-                <Icon
-                  width="25"
-                  height="25"
-                  className="logo react mr-2"
-                  alt="React logo"
-                  icon="logos:react"
-                />
-                <Icon width="25" height="25" icon="logos:tailwindcss-icon" />
-                <Icon
-                  className="mr-2"
-                  width="25"
-                  height="25"
-                  icon="icon-park-solid:api"
-                />
-              </div>
-
-              <div className="card-actions justify-center">
-                <a
-                  href="https://github.com/LosmanDev/crypto-suuq"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">&lt;Code/&gt;</button>
-                </a>
-                <a
-                  href="https://crypto-suuq.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-outline">Visit🌐 </button>
-                </a>
-              </div>
-            </div>
-          </div>
 
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral"
           >
             <figure>
@@ -560,13 +570,14 @@ export default function Projects() {
           <div
             data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
             className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
           >
             <figure>
               <img
                 className=" rounded"
                 src={nasa}
-                alt="Nasa Photo of the day"
+                alt="Nasa Photo of the day images generated from nasa api since 1995"
               />
             </figure>
             <div className="card-body">
@@ -619,6 +630,135 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://losmandev.github.io/NASA-Photo-API/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
+          >
+            <figure>
+              <img
+                className=" rounded"
+                src={nomad}
+                alt="Nomad Energy a solar energy company based in Somalia"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Nomad Energy</h2>
+              <p className="text-slate-600 font-light">
+                A solar energy company providing an affordable, reliable and
+                renewable energy located in Garoowe, Nugaal Somalia.
+              </p>
+              <div className="flex flex-row  py-5">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-html"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-css"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:bootstrap"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="devicon:jquery-wordmark"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/Nomad-Energy"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://losmandev.github.io/Nomad-Energy/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">Visit🌐 </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-easing="ease-out-sine"
+            className="card sm:w-2/6 w-80 glass mt-16 mx-20 shadow-xl shadow-neutral "
+          >
+            <figure>
+              <img
+                className=" rounded"
+                src={halal}
+                alt="Halal meat shop based in roxbury ma"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Halal Meat Express</h2>
+              <p className="text-slate-600 font-light">
+                Halal Meat Express is a local shop that sells halal meat and
+                goods, and also offers a money transfer service to various
+                locations around the world.
+              </p>
+              <div className="flex flex-row  py-5">
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-html"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="vscode-icons:file-type-css"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="logos:bootstrap"
+                />
+                <Icon
+                  className="mr-2"
+                  width="25"
+                  height="25"
+                  icon="devicon:jquery-wordmark"
+                />
+              </div>
+
+              <div className="card-actions justify-center">
+                <a
+                  href="https://github.com/LosmanDev/HalalMeatExpress"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-outline">&lt;Code/&gt;</button>
+                </a>
+                <a
+                  href="https://losmandev.github.io/HalalMeatExpress/"
                   target="_blank"
                   rel="noreferrer"
                 >
