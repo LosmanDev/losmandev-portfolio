@@ -28,11 +28,11 @@ export default function Home() {
           data-aos-delay="400"
           className="font-medium italic"
         >
-          Digitalizing Ideas for the{' '}
+          Digitalizing{' '}
           <span className="bg-gradient-to-r from-[#f9d33c] to-[#F9C23C] text-transparent bg-clip-text ">
-            Web
-          </span>
-          ✨
+            Ideas✨
+          </span>{' '}
+          for the Web
         </h3>
         <div className="flex flex-row items-center justify-center pt-10">
           <div
