@@ -115,7 +115,7 @@ export default function Home() {
           >
             <Icon width="30" height="30" icon="devicon:tailwindcss" />
             <span className="font-medium text-xs italic text-slate-600">
-              Tailwind CSS
+              Tailwindcss
             </span>
           </div>
           <div
@@ -176,12 +176,32 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-right"
+            data-aos-delay="1400"
+            className="flex flex-col items-center pr-3 pt-2"
+          >
+            <Icon width="30" height="30" icon="logos:php" />
+            <span className="font-medium text-xs italic text-slate-600">
+              Php
+            </span>
+          </div>
+          <div
+            data-aos="fade-right"
             data-aos-delay="1600"
             className="flex flex-col items-center pr-3 pt-2"
           >
             <Icon width="30" height="30" icon="logos:postgresql" />
             <span className="font-medium text-xs italic text-slate-600">
               PostgreSQL
+            </span>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="1600"
+            className="flex flex-col items-center pr-3 pt-2"
+          >
+            <Icon width="30" height="30" icon="devicon:mysql" />
+            <span className="font-medium text-xs italic text-slate-600">
+              MySQL
             </span>
           </div>
           <div
