@@ -111,7 +111,7 @@ export default function Contact() {
                       : 'btn btn-primary text-accent capitalize mt-4 w-full sm:max-w-lg max-w-xs sm:mx-10'
                   }
                 >
-                  Let&apos;s Connect
+                  Submit
                 </button>
                 <p className="text-error text-center pt-3">
                   {errors.Message?.message}

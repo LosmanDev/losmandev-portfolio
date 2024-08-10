@@ -31,26 +31,40 @@ export default function About() {
               className="w-full sm:w-1/3"
             />
 
-            <p
-              data-aos="fade-right"
-              data-aos-delay="400"
-              className="lg:leading-snug sm: text-slate-500 text-center text-sm sm:w-2/6 px-2 fade-in-up"
-            >
-              I&apos;m a highly motivated IT professional with experience in
-              both frontend and backend development. Skilled in crafting
-              user-friendly interfaces with HTML5, CSS3, JavaScript (ES6+),
-              TypeScript, and React/Nextjs. Adept at building robust backend
-              logic and APIs using Node.js, Next(SSR, SSG, API Routes) Php,
-              PostgreSQL, MySQL, MongoDB and RESTful principles.
-              <br />
-              <br />
-              Beyond software development, my hobbies include playing sports,
-              swimming, and enjoying life with my loved ones. My technical
-              experience gives me the confidence to pick up new information
-              rapidly and tackle difficult problems. I&apos;m driven to learn
-              and progress in this ever-evolving field. Ready to digitalize
-              ideas into user friendly, mobile-responsive, elegant projects and
-              solutions.
+            <p className="lg:leading-relaxed sm: text-slate-500 text-center text-sm sm:w-2/6 px-2">
+              <span
+                data-aos="fade-down"
+                data-aos-delay="400"
+                data-aos-duration="2000"
+              >
+                I&apos;m a highly motivated IT professional with experience
+                building innovative web applications.{' '}
+              </span>
+              <span
+                data-aos="fade-down"
+                data-aos-delay="500"
+                data-aos-duration="2000"
+              >
+                Skilled in crafting user-friendly interfaces with HTML5, CSS3,
+                JavaScript (ES6+), TypeScript, and React/Nextjs.{' '}
+              </span>
+              <span
+                data-aos="fade-down"
+                data-aos-delay="600"
+                data-aos-duration="2000"
+              >
+                Adept at building robust backend logic and APIs using Node.js,
+                Next.js(SSR, SSG, API Routes) PHP, PostgreSQL, MySQL, MongoDB
+                and RESTful principles.{' '}
+              </span>
+              <span
+                data-aos="fade-down"
+                data-aos-delay="600"
+                data-aos-duration="2000"
+              >
+                Proven ability to solve complex technical challenges and
+                delivering high-quality solutions.
+              </span>
             </p>
           </div>
         </div>
